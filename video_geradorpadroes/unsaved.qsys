@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system name="$${FILENAME}">
+ <component
+   name="$${FILENAME}"
+   displayName="$${FILENAME}"
+   version="1.0"
+   description=""
+   tags=""
+   categories="System" />
+ <parameter name="bonusData"><![CDATA[bonusData 
+{
+   element bayer_resampler
+   {
+      datum _sortIndex
+      {
+         value = "4";
+         type = "int";
+      }
+   }
+   element camera_config
+   {
+      datum _sortIndex
+      {
+         value = "2";
+         type = "int";
+      }
+   }
+   element camera_decoder
+   {
+      datum _sortIndex
+      {
+         value = "3";
+         type = "int";
+      }
+   }
+   element clk_0
+   {
+      datum _sortIndex
+      {
+         value = "0";
+         type = "int";
+      }
+   }
+   element video_clipper_0
+   {
+      datum _sortIndex
+      {
+         value = "5";
+         type = "int";
+      }
+   }
+   element video_rgb_resampler_0
+   {
+      datum _sortIndex
+      {
+         value = "7";
+         type = "int";
+      }
+   }
+   element video_scaler_0
+   {
+      datum _sortIndex
+      {
+         value = "6";
+         type = "int";
+      }
+   }
+   element video_test_pattern_0
+   {
+      datum _sortIndex
+      {
+         value = "1";
+         type = "int";
+      }
+   }
+   element video_vga_controller_0
+   {
+      datum _sortIndex
+      {
+         value = "8";
+         type = "int";
+      }
+   }
+}
+]]></parameter>
+ <parameter name="clockCrossingAdapter" value="HANDSHAKE" />
+ <parameter name="device" value="EP4CGX150DF31C7" />
+ <parameter name="deviceFamily" value="Cyclone IV GX" />
+ <parameter name="deviceSpeedGrade" value="7" />
+ <parameter name="fabricMode" value="QSYS" />
+ <parameter name="generateLegacySim" value="false" />
+ <parameter name="generationId" value="0" />
+ <parameter name="globalResetBus" value="false" />
+ <parameter name="hdlLanguage" value="VERILOG" />
+ <parameter name="hideFromIPCatalog" value="false" />
+ <parameter name="lockedInterfaceDefinition" value="" />
+ <parameter name="maxAdditionalLatency" value="1" />
+ <parameter name="projectName" value="teste.qpf" />
+ <parameter name="sopcBorderPoints" value="false" />
+ <parameter name="systemHash" value="0" />
+ <parameter name="testBenchDutName" value="" />
+ <parameter name="timeStamp" value="0" />
+ <parameter name="useTestBenchNamingPattern" value="false" />
+ <instanceScript></instanceScript>
+ <interface
+   name="camera_config"
+   internal="camera_config.external_interface"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="camera_in"
+   internal="camera_decoder.external_interface"
+   type="conduit"
+   dir="end" />
+ <interface name="clk" internal="clk_0.clk_in" type="clock" dir="end" />
+ <interface name="reset" internal="clk_0.clk_in_reset" type="reset" dir="end" />
+ <interface
+   name="video_vga_controller_0_external_interface"
+   internal="video_vga_controller_0.external_interface"
+   type="conduit"
+   dir="end" />
+ <module
+   name="bayer_resampler"
+   kind="altera_up_avalon_video_bayer_resampler"
+   version="18.0"
+   enabled="1">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="custom_height_in" value="1944" />
+  <parameter name="custom_width_in" value="2592" />
+  <parameter name="device">5MP Digital Camera (THDB_D5M)</parameter>
+  <parameter name="use_custom_format" value="true" />
+ </module>
+ <module
+   name="camera_config"
+   kind="altera_up_avalon_audio_and_video_config"
+   version="18.0"
+   enabled="1">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="audio_in" value="Microphone to ADC" />
+  <parameter name="bit_length" value="24" />
+  <parameter name="board" value="DE10-Standard" />
+  <parameter name="d5m_resolution" value="2592 x 1944" />
+  <parameter name="dac_enable" value="false" />
+  <parameter name="data_format" value="Left Justified" />
+  <parameter name="device">On-Board Peripherals</parameter>
+  <parameter name="eai" value="true" />
+  <parameter name="exposure" value="false" />
+  <parameter name="line_in_bypass" value="false" />
+  <parameter name="mic_attenuation" value="-6dB" />
+  <parameter name="mic_bypass" value="false" />
+  <parameter name="sampling_rate" value="48 kHz" />
+  <parameter name="video_format" value="NTSC" />
+ </module>
+ <module
+   name="camera_decoder"
+   kind="altera_up_avalon_video_decoder"
+   version="18.0"
+   enabled="1">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="video_source">5MP Digital Camera (THDB_D5M)</parameter>
+ </module>
+ <module name="clk_0" kind="clock_source" version="18.1" enabled="1">
+  <parameter name="clockFrequency" value="25000000" />
+  <parameter name="clockFrequencyKnown" value="true" />
+  <parameter name="inputClockFrequency" value="0" />
+  <parameter name="resetSynchronousEdges" value="NONE" />
+ </module>
+ <module
+   name="video_clipper_0"
+   kind="altera_up_avalon_video_clipper"
+   version="18.0"
+   enabled="1">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="add_bottom" value="0" />
+  <parameter name="add_left" value="0" />
+  <parameter name="add_right" value="0" />
+  <parameter name="add_top" value="0" />
+  <parameter name="add_value_plane_1" value="0" />
+  <parameter name="add_value_plane_2" value="0" />
+  <parameter name="add_value_plane_3" value="0" />
+  <parameter name="add_value_plane_4" value="0" />
+  <parameter name="color_bits" value="8" />
+  <parameter name="color_planes" value="3" />
+  <parameter name="drop_bottom" value="6" />
+  <parameter name="drop_left" value="8" />
+  <parameter name="drop_right" value="8" />
+  <parameter name="drop_top" value="6" />
+  <parameter name="height_in" value="972" />
+  <parameter name="width_in" value="1296" />
+ </module>
+ <module
+   name="video_rgb_resampler_0"
+   kind="altera_up_avalon_video_rgb_resampler"
+   version="18.0"
+   enabled="1">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="alpha" value="1023" />
+  <parameter name="input_type" value="24-bit RGB" />
+  <parameter name="output_type" value="30-bit RGB" />
+ </module>
+ <module
+   name="video_scaler_0"
+   kind="altera_up_avalon_video_scaler"
+   version="18.0"
+   enabled="1">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="color_bits" value="8" />
+  <parameter name="color_planes" value="3" />
+  <parameter name="height_in" value="960" />
+  <parameter name="height_scaling" value="0.5" />
+  <parameter name="include_channel" value="false" />
+  <parameter name="width_in" value="1280" />
+  <parameter name="width_scaling" value="0.5" />
+ </module>
+ <module
+   name="video_test_pattern_0"
+   kind="altera_up_avalon_video_test_pattern"
+   version="18.0"
+   enabled="1">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="height" value="480" />
+  <parameter name="width" value="640" />
+ </module>
+ <module
+   name="video_vga_controller_0"
+   kind="altera_up_avalon_video_vga_controller"
+   version="18.1"
+   enabled="1">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="board" value="DE2i-150" />
+  <parameter name="device" value="VGA Connector" />
+  <parameter name="resolution" value="VGA 640x480" />
+  <parameter name="underflow_flag" value="false" />
+ </module>
+ <connection
+   kind="avalon_streaming"
+   version="18.1"
+   start="bayer_resampler.avalon_bayer_source"
+   end="video_clipper_0.avalon_clipper_sink" />
+ <connection
+   kind="avalon_streaming"
+   version="18.1"
+   start="video_clipper_0.avalon_clipper_source"
+   end="video_scaler_0.avalon_scaler_sink" />
+ <connection
+   kind="avalon_streaming"
+   version="18.1"
+   start="camera_decoder.avalon_decoder_source"
+   end="bayer_resampler.avalon_bayer_sink" />
+ <connection
+   kind="avalon_streaming"
+   version="18.1"
+   start="video_rgb_resampler_0.avalon_rgb_source"
+   end="video_vga_controller_0.avalon_vga_sink" />
+ <connection
+   kind="avalon_streaming"
+   version="18.1"
+   start="video_scaler_0.avalon_scaler_source"
+   end="video_rgb_resampler_0.avalon_rgb_sink" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_0.clk"
+   end="video_vga_controller_0.clk" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_0.clk"
+   end="video_rgb_resampler_0.clk" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_0.clk"
+   end="video_test_pattern_0.clk" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_0.clk"
+   end="camera_decoder.clk" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_0.clk"
+   end="bayer_resampler.clk" />
+ <connection kind="clock" version="18.1" start="clk_0.clk" end="camera_config.clk" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_0.clk"
+   end="video_clipper_0.clk" />
+ <connection
+   kind="clock"
+   version="18.1"
+   start="clk_0.clk"
+   end="video_scaler_0.clk" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_0.clk_reset"
+   end="video_test_pattern_0.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_0.clk_reset"
+   end="video_vga_controller_0.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_0.clk_reset"
+   end="video_rgb_resampler_0.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_0.clk_reset"
+   end="camera_decoder.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_0.clk_reset"
+   end="bayer_resampler.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_0.clk_reset"
+   end="camera_config.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_0.clk_reset"
+   end="video_clipper_0.reset" />
+ <connection
+   kind="reset"
+   version="18.1"
+   start="clk_0.clk_reset"
+   end="video_scaler_0.reset" />
+ <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
+ <interconnectRequirement for="$system" name="qsys_mm.enableEccProtection" value="FALSE" />
+ <interconnectRequirement for="$system" name="qsys_mm.insertDefaultSlave" value="FALSE" />
+ <interconnectRequirement for="$system" name="qsys_mm.maxAdditionalLatency" value="1" />
+</system>

@@ -1,0 +1,103 @@
+Info: Starting: Create simulation model
+Info: qsys-generate C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved\simulation --family="Cyclone IV GX" --part=EP4CGX150DF31C7
+Progress: Loading video_geradorpadroes/unsaved.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding video_rgb_resampler_0 [altera_up_avalon_video_rgb_resampler 18.0]
+Progress: Parameterizing module video_rgb_resampler_0
+Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 18.0]
+Progress: Parameterizing module video_test_pattern_0
+Progress: Adding video_vga_controller_0 [altera_up_avalon_video_vga_controller 18.1]
+Warning: altera_up_avalon_video_vga_controller: Catalog mismatch; expected v18.0 but found v18.1
+Progress: Parameterizing module video_vga_controller_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: unsaved.video_rgb_resampler_0: RGB Resampling: 8 (bits) x 3 (planes) -> 10 (bits) x 3 (planes)
+Info: unsaved.video_vga_controller_0: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
+Warning: unsaved.video_rgb_resampler_0: video_rgb_resampler_0.avalon_rgb_slave must be connected to an Avalon-MM master
+Info: unsaved: Generating unsaved "unsaved" for SIM_VERILOG
+Info: video_rgb_resampler_0: Starting Generation of Video RGB Resampler
+Info: video_rgb_resampler_0: "unsaved" instantiated altera_up_avalon_video_rgb_resampler "video_rgb_resampler_0"
+Info: video_test_pattern_0: Starting Generation of Test Pattern Generator
+Info: video_test_pattern_0: "unsaved" instantiated altera_up_avalon_video_test_pattern "video_test_pattern_0"
+Info: video_vga_controller_0: Starting Generation of VGA Controller
+Info: video_vga_controller_0: "unsaved" instantiated altera_up_avalon_video_vga_controller "video_vga_controller_0"
+Info: rst_controller: "unsaved" instantiated altera_reset_controller "rst_controller"
+Info: unsaved: Done "unsaved" with 5 modules, 8 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved\unsaved.spd --output-directory=C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved\unsaved.spd --output-directory=C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	4 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved.qsys --block-symbol-file --output-directory=C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved --family="Cyclone IV GX" --part=EP4CGX150DF31C7
+Progress: Loading video_geradorpadroes/unsaved.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding video_rgb_resampler_0 [altera_up_avalon_video_rgb_resampler 18.0]
+Progress: Parameterizing module video_rgb_resampler_0
+Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 18.0]
+Progress: Parameterizing module video_test_pattern_0
+Progress: Adding video_vga_controller_0 [altera_up_avalon_video_vga_controller 18.1]
+Progress: Parameterizing module video_vga_controller_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: unsaved.video_rgb_resampler_0: RGB Resampling: 8 (bits) x 3 (planes) -> 10 (bits) x 3 (planes)
+Info: unsaved.video_vga_controller_0: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
+Warning: unsaved.video_rgb_resampler_0: video_rgb_resampler_0.avalon_rgb_slave must be connected to an Avalon-MM master
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved.qsys --synthesis=VERILOG --output-directory=C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved\synthesis --family="Cyclone IV GX" --part=EP4CGX150DF31C7
+Progress: Loading video_geradorpadroes/unsaved.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding video_rgb_resampler_0 [altera_up_avalon_video_rgb_resampler 18.0]
+Progress: Parameterizing module video_rgb_resampler_0
+Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 18.0]
+Progress: Parameterizing module video_test_pattern_0
+Progress: Adding video_vga_controller_0 [altera_up_avalon_video_vga_controller 18.1]
+Progress: Parameterizing module video_vga_controller_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: unsaved.video_rgb_resampler_0: RGB Resampling: 8 (bits) x 3 (planes) -> 10 (bits) x 3 (planes)
+Info: unsaved.video_vga_controller_0: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
+Warning: unsaved.video_rgb_resampler_0: video_rgb_resampler_0.avalon_rgb_slave must be connected to an Avalon-MM master
+Info: unsaved: Generating unsaved "unsaved" for QUARTUS_SYNTH
+Info: video_rgb_resampler_0: Starting Generation of Video RGB Resampler
+Info: video_rgb_resampler_0: "unsaved" instantiated altera_up_avalon_video_rgb_resampler "video_rgb_resampler_0"
+Info: video_test_pattern_0: Starting Generation of Test Pattern Generator
+Info: video_test_pattern_0: "unsaved" instantiated altera_up_avalon_video_test_pattern "video_test_pattern_0"
+Info: video_vga_controller_0: Starting Generation of VGA Controller
+Info: video_vga_controller_0: "unsaved" instantiated altera_up_avalon_video_vga_controller "video_vga_controller_0"
+Info: rst_controller: "unsaved" instantiated altera_reset_controller "rst_controller"
+Info: unsaved: Done "unsaved" with 5 modules, 8 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

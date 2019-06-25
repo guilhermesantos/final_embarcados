@@ -1,0 +1,15 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis {C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v}
+vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v}
+vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_test_pattern_0.v}
+vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v}
+vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v}
+vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v}
+vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v}
+

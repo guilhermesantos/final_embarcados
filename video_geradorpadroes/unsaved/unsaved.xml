@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2019.06.14.15:38:27"
+ outputDirectory="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Cyclone IV GX"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="EP4CGX150DF31C7"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="7"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="camera_config" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <port name="camera_config_SDAT" direction="bidir" role="SDAT" width="1" />
+   <port name="camera_config_SCLK" direction="output" role="SCLK" width="1" />
+  </interface>
+  <interface name="camera_in" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <port
+       name="camera_in_PIXEL_CLK"
+       direction="input"
+       role="PIXEL_CLK"
+       width="1" />
+   <port
+       name="camera_in_LINE_VALID"
+       direction="input"
+       role="LINE_VALID"
+       width="1" />
+   <port
+       name="camera_in_FRAME_VALID"
+       direction="input"
+       role="FRAME_VALID"
+       width="1" />
+   <port
+       name="camera_in_pixel_clk_reset"
+       direction="input"
+       role="pixel_clk_reset"
+       width="1" />
+   <port
+       name="camera_in_PIXEL_DATA"
+       direction="input"
+       role="PIXEL_DATA"
+       width="12" />
+  </interface>
+  <interface name="clk" kind="clock" start="0">
+   <property name="clockRate" value="25000000" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="clk_clk" direction="input" role="clk" width="1" />
+  </interface>
+  <interface name="reset" kind="reset" start="0">
+   <property name="associatedClock" value="" />
+   <property name="synchronousEdges" value="NONE" />
+   <port name="reset_reset_n" direction="input" role="reset_n" width="1" />
+  </interface>
+  <interface
+     name="video_vga_controller_0_external_interface"
+     kind="conduit"
+     start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <port
+       name="video_vga_controller_0_external_interface_CLK"
+       direction="output"
+       role="CLK"
+       width="1" />
+   <port
+       name="video_vga_controller_0_external_interface_HS"
+       direction="output"
+       role="HS"
+       width="1" />
+   <port
+       name="video_vga_controller_0_external_interface_VS"
+       direction="output"
+       role="VS"
+       width="1" />
+   <port
+       name="video_vga_controller_0_external_interface_BLANK"
+       direction="output"
+       role="BLANK"
+       width="1" />
+   <port
+       name="video_vga_controller_0_external_interface_SYNC"
+       direction="output"
+       role="SYNC"
+       width="1" />
+   <port
+       name="video_vga_controller_0_external_interface_R"
+       direction="output"
+       role="R"
+       width="8" />
+   <port
+       name="video_vga_controller_0_external_interface_G"
+       direction="output"
+       role="G"
+       width="8" />
+   <port
+       name="video_vga_controller_0_external_interface_B"
+       direction="output"
+       role="B"
+       width="8" />
+  </interface>
+ </perimeter>
+ <entity
+   path=""
+   parameterizationKey="unsaved:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=EP4CGX150DF31C7,AUTO_DEVICE_FAMILY=Cyclone IV GX,AUTO_DEVICE_SPEEDGRADE=7,AUTO_GENERATION_ID=1560537504,AUTO_UNIQUE_ID=(altera_up_avalon_video_bayer_resampler:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,custom_height_in=1944,custom_width_in=2592,device=5MP Digital Camera (THDB_D5M),height_in=1944,use_custom_format=true,width_in=2592)(altera_up_avalon_audio_and_video_config:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,audio_in=Microphone to ADC,bit_length=24,board=DE10-Standard,bosr=250fs/256fs,d5m_resolution=2592 x 1944,dac_enable=false,data_format=Left Justified,device=On-Board Peripherals,eai=true,exposure=false,line_in_bypass=false,mic_attenuation=-6dB,mic_bypass=false,sampling_rate=48 kHz,sr_register=0,video_format=NTSC)(altera_up_avalon_video_decoder:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,video_source=5MP Digital Camera (THDB_D5M))(clock_source:18.1:clockFrequency=25000000,clockFrequencyKnown=true,inputClockFrequency=0,resetSynchronousEdges=NONE)(altera_up_avalon_video_clipper:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,add_bottom=0,add_left=0,add_right=0,add_top=0,add_value_plane_1=0,add_value_plane_2=0,add_value_plane_3=0,add_value_plane_4=0,color_bits=8,color_planes=3,drop_bottom=6,drop_left=8,drop_right=8,drop_top=6,height_in=972,width_in=1296)(altera_up_avalon_video_rgb_resampler:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,alpha=1023,input_bits=8,input_planes=3,input_type=24-bit RGB,output_bits=10,output_planes=3,output_type=30-bit RGB)(altera_up_avalon_video_scaler:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,channel_size=0,color_bits=8,color_planes=3,height_in=960,height_out=480,height_scaling=0.5,include_channel=false,width_in=1280,width_out=640,width_scaling=0.5)(altera_up_avalon_video_test_pattern:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,height=480,width=640)(altera_up_avalon_video_vga_controller:18.1:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,board=DE2i-150,device=VGA Connector,resolution=VGA 640x480,underflow_flag=false)(avalon_streaming:18.1:)(avalon_streaming:18.1:)(avalon_streaming:18.1:)(avalon_streaming:18.1:)(avalon_streaming:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)"
+   instancePathKey="unsaved"
+   kind="unsaved"
+   version="1.0"
+   name="unsaved">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_GENERATION_ID" value="1560537504" />
+  <parameter name="AUTO_DEVICE" value="EP4CGX150DF31C7" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="AUTO_CLK_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="-1" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
+  <generatedFiles>
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_bayer_resampler.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_slow_clock_generator.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_dc2.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_d5m.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_lcm.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ltm.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de2_115.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de2i_150.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de10_standard.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7181.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_itu_656_decoder.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_decoder_add_endofpacket.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_camera_decoder.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_dual_clock_fifo.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_decoder.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_add.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_drop.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_counters.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_clipper_0.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_shrink.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_multiply_width.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_multiply_height.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_scaler_0.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_test_pattern_0.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v"
+       type="VERILOG"
+       attributes="" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v"
+       type="VERILOG"
+       attributes="" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.sdc"
+       type="SDC"
+       attributes="" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved.qsys" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_bayer_resampler/altera_up_avalon_video_bayer_resampler_hw.tcl" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/altera_up_avalon_audio_and_video_config_hw.tcl" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_serial_bus_controller.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_slow_clock_generator.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_dc2.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_d5m.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_lcm.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ltm.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de1_soc.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2_115.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2i_150.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de10_standard.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_audio.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7180.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7181.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/altera_up_avalon_video_decoder_hw.tcl" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_itu_656_decoder.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_decoder_add_endofpacket.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_camera_decoder.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_dual_clock_fifo.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/altera_up_avalon_video_clipper_hw.tcl" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_add.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_drop.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_counters.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_rgb_resampler/altera_up_avalon_video_rgb_resampler_hw.tcl" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/altera_up_avalon_video_scaler_hw.tcl" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_shrink.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_multiply_width.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_multiply_height.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_test_pattern/altera_up_avalon_video_test_pattern_hw.tcl" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_vga_controller/altera_up_avalon_video_vga_controller_hw.tcl" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_vga_controller/hdl/altera_up_avalon_video_vga_timing.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/merlin/altera_reset_controller/altera_reset_controller_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Debug" culprit="unsaved">queue size: 0 starting:unsaved "unsaved"</message>
+   <message level="Progress" culprit="min"></message>
+   <message level="Progress" culprit="max"></message>
+   <message level="Progress" culprit="current"></message>
+   <message level="Debug">Transform: CustomInstructionTransform</message>
+   <message level="Debug">No custom instruction connections, skipping transform </message>
+   <message level="Debug" culprit="merlin_custom_instruction_transform"><![CDATA[After transform: <b>9</b> modules, <b>21</b> connections]]></message>
+   <message level="Debug">Transform: MMTransform</message>
+   <message level="Debug">Transform: InterruptMapperTransform</message>
+   <message level="Debug">Transform: InterruptSyncTransform</message>
+   <message level="Debug">Transform: InterruptFanoutTransform</message>
+   <message level="Debug">Transform: AvalonStreamingTransform</message>
+   <message level="Debug">Transform: ResetAdaptation</message>
+   <message level="Progress" culprit="min"></message>
+   <message level="Progress" culprit="max"></message>
+   <message level="Progress" culprit="current"></message>
+   <message level="Debug" culprit="reset_adaptation_transform"><![CDATA[After transform: <b>10</b> modules, <b>23</b> connections]]></message>
+   <message level="Debug" culprit="unsaved"><![CDATA["<b>unsaved</b>" reuses <b>altera_up_avalon_video_bayer_resampler</b> "<b>submodules/unsaved_bayer_resampler</b>"]]></message>
+   <message level="Debug" culprit="unsaved"><![CDATA["<b>unsaved</b>" reuses <b>altera_up_avalon_audio_and_video_config</b> "<b>submodules/unsaved_camera_config</b>"]]></message>
+   <message level="Debug" culprit="unsaved"><![CDATA["<b>unsaved</b>" reuses <b>altera_up_avalon_video_decoder</b> "<b>submodules/unsaved_camera_decoder</b>"]]></message>
+   <message level="Debug" culprit="unsaved"><![CDATA["<b>unsaved</b>" reuses <b>altera_up_avalon_video_clipper</b> "<b>submodules/unsaved_video_clipper_0</b>"]]></message>
+   <message level="Debug" culprit="unsaved"><![CDATA["<b>unsaved</b>" reuses <b>altera_up_avalon_video_rgb_resampler</b> "<b>submodules/unsaved_video_rgb_resampler_0</b>"]]></message>
+   <message level="Debug" culprit="unsaved"><![CDATA["<b>unsaved</b>" reuses <b>altera_up_avalon_video_scaler</b> "<b>submodules/unsaved_video_scaler_0</b>"]]></message>
+   <message level="Debug" culprit="unsaved"><![CDATA["<b>unsaved</b>" reuses <b>altera_up_avalon_video_test_pattern</b> "<b>submodules/unsaved_video_test_pattern_0</b>"]]></message>
+   <message level="Debug" culprit="unsaved"><![CDATA["<b>unsaved</b>" reuses <b>altera_up_avalon_video_vga_controller</b> "<b>submodules/unsaved_video_vga_controller_0</b>"]]></message>
+   <message level="Debug" culprit="unsaved"><![CDATA["<b>unsaved</b>" reuses <b>altera_reset_controller</b> "<b>submodules/altera_reset_controller</b>"]]></message>
+   <message level="Debug" culprit="unsaved">queue size: 8 starting:altera_up_avalon_video_bayer_resampler "submodules/unsaved_bayer_resampler"</message>
+   <message level="Info" culprit="bayer_resampler">Starting Generation of Video Bayer Pattern Resampler</message>
+   <message level="Info" culprit="bayer_resampler"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_video_bayer_resampler</b> "<b>bayer_resampler</b>"]]></message>
+   <message level="Debug" culprit="unsaved">queue size: 7 starting:altera_up_avalon_audio_and_video_config "submodules/unsaved_camera_config"</message>
+   <message level="Info" culprit="camera_config">Starting Generation of Audio and Video Config</message>
+   <message level="Info" culprit="camera_config"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_audio_and_video_config</b> "<b>camera_config</b>"]]></message>
+   <message level="Debug" culprit="unsaved">queue size: 6 starting:altera_up_avalon_video_decoder "submodules/unsaved_camera_decoder"</message>
+   <message level="Info" culprit="camera_decoder">Starting Generation of Video In Decoder</message>
+   <message level="Info" culprit="camera_decoder"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_video_decoder</b> "<b>camera_decoder</b>"]]></message>
+   <message level="Debug" culprit="unsaved">queue size: 5 starting:altera_up_avalon_video_clipper "submodules/unsaved_video_clipper_0"</message>
+   <message level="Info" culprit="video_clipper_0">Starting generation of the video clipper</message>
+   <message level="Info" culprit="video_clipper_0"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_video_clipper</b> "<b>video_clipper_0</b>"]]></message>
+   <message level="Debug" culprit="unsaved">queue size: 4 starting:altera_up_avalon_video_rgb_resampler "submodules/unsaved_video_rgb_resampler_0"</message>
+   <message level="Info" culprit="video_rgb_resampler_0">Starting Generation of Video RGB Resampler</message>
+   <message level="Info" culprit="video_rgb_resampler_0"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_video_rgb_resampler</b> "<b>video_rgb_resampler_0</b>"]]></message>
+   <message level="Debug" culprit="unsaved">queue size: 3 starting:altera_up_avalon_video_scaler "submodules/unsaved_video_scaler_0"</message>
+   <message level="Info" culprit="video_scaler_0">Starting Generation of Video Scaler</message>
+   <message level="Info" culprit="video_scaler_0"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_video_scaler</b> "<b>video_scaler_0</b>"]]></message>
+   <message level="Debug" culprit="unsaved">queue size: 2 starting:altera_up_avalon_video_test_pattern "submodules/unsaved_video_test_pattern_0"</message>
+   <message level="Info" culprit="video_test_pattern_0">Starting Generation of Test Pattern Generator</message>
+   <message level="Info" culprit="video_test_pattern_0"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_video_test_pattern</b> "<b>video_test_pattern_0</b>"]]></message>
+   <message level="Debug" culprit="unsaved">queue size: 1 starting:altera_up_avalon_video_vga_controller "submodules/unsaved_video_vga_controller_0"</message>
+   <message level="Info" culprit="video_vga_controller_0">Starting Generation of VGA Controller</message>
+   <message level="Info" culprit="video_vga_controller_0"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_video_vga_controller</b> "<b>video_vga_controller_0</b>"]]></message>
+   <message level="Debug" culprit="unsaved">queue size: 0 starting:altera_reset_controller "submodules/altera_reset_controller"</message>
+   <message level="Info" culprit="rst_controller"><![CDATA["<b>unsaved</b>" instantiated <b>altera_reset_controller</b> "<b>rst_controller</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_up_avalon_video_bayer_resampler:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,custom_height_in=1944,custom_width_in=2592,device=5MP Digital Camera (THDB_D5M),height_in=1944,use_custom_format=true,width_in=2592"
+   instancePathKey="unsaved:.:bayer_resampler"
+   kind="altera_up_avalon_video_bayer_resampler"
+   version="18.0"
+   name="unsaved_bayer_resampler">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="custom_height_in" value="1944" />
+  <parameter name="custom_width_in" value="2592" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="height_in" value="1944" />
+  <parameter name="width_in" value="2592" />
+  <parameter name="device" value="5MP Digital Camera (THDB_D5M)" />
+  <parameter name="use_custom_format" value="true" />
+  <generatedFiles>
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_bayer_resampler.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_bayer_resampler/altera_up_avalon_video_bayer_resampler_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="unsaved" as="bayer_resampler" />
+  <messages>
+   <message level="Debug" culprit="unsaved">queue size: 8 starting:altera_up_avalon_video_bayer_resampler "submodules/unsaved_bayer_resampler"</message>
+   <message level="Info" culprit="bayer_resampler">Starting Generation of Video Bayer Pattern Resampler</message>
+   <message level="Info" culprit="bayer_resampler"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_video_bayer_resampler</b> "<b>bayer_resampler</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_up_avalon_audio_and_video_config:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,audio_in=Microphone to ADC,bit_length=24,board=DE10-Standard,bosr=250fs/256fs,d5m_resolution=2592 x 1944,dac_enable=false,data_format=Left Justified,device=On-Board Peripherals,eai=true,exposure=false,line_in_bypass=false,mic_attenuation=-6dB,mic_bypass=false,sampling_rate=48 kHz,sr_register=0,video_format=NTSC"
+   instancePathKey="unsaved:.:camera_config"
+   kind="altera_up_avalon_audio_and_video_config"
+   version="18.0"
+   name="unsaved_camera_config">
+  <parameter name="data_format" value="Left Justified" />
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="bosr" value="250fs/256fs" />
+  <parameter name="audio_in" value="Microphone to ADC" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="d5m_resolution" value="2592 x 1944" />
+  <parameter name="video_format" value="NTSC" />
+  <parameter name="dac_enable" value="false" />
+  <parameter name="eai" value="true" />
+  <parameter name="line_in_bypass" value="false" />
+  <parameter name="bit_length" value="24" />
+  <parameter name="sampling_rate" value="48 kHz" />
+  <parameter name="sr_register" value="0" />
+  <parameter name="mic_bypass" value="false" />
+  <parameter name="exposure" value="false" />
+  <parameter name="mic_attenuation" value="-6dB" />
+  <parameter name="device" value="On-Board Peripherals" />
+  <parameter name="board" value="DE10-Standard" />
+  <generatedFiles>
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_slow_clock_generator.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_dc2.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_d5m.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_lcm.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ltm.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de2_115.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de2i_150.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de10_standard.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7181.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/altera_up_avalon_audio_and_video_config_hw.tcl" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_serial_bus_controller.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_slow_clock_generator.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_dc2.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_d5m.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_lcm.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ltm.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de1_soc.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2_115.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2i_150.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de10_standard.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_audio.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7180.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7181.v" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="unsaved" as="camera_config" />
+  <messages>
+   <message level="Debug" culprit="unsaved">queue size: 7 starting:altera_up_avalon_audio_and_video_config "submodules/unsaved_camera_config"</message>
+   <message level="Info" culprit="camera_config">Starting Generation of Audio and Video Config</message>
+   <message level="Info" culprit="camera_config"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_audio_and_video_config</b> "<b>camera_config</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_up_avalon_video_decoder:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,video_source=5MP Digital Camera (THDB_D5M)"
+   instancePathKey="unsaved:.:camera_decoder"
+   kind="altera_up_avalon_video_decoder"
+   version="18.0"
+   name="unsaved_camera_decoder">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="video_source" value="5MP Digital Camera (THDB_D5M)" />
+  <generatedFiles>
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_itu_656_decoder.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_decoder_add_endofpacket.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_camera_decoder.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_dual_clock_fifo.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_decoder.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/altera_up_avalon_video_decoder_hw.tcl" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_itu_656_decoder.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_decoder_add_endofpacket.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_camera_decoder.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_dual_clock_fifo.v" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="unsaved" as="camera_decoder" />
+  <messages>
+   <message level="Debug" culprit="unsaved">queue size: 6 starting:altera_up_avalon_video_decoder "submodules/unsaved_camera_decoder"</message>
+   <message level="Info" culprit="camera_decoder">Starting Generation of Video In Decoder</message>
+   <message level="Info" culprit="camera_decoder"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_video_decoder</b> "<b>camera_decoder</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_up_avalon_video_clipper:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,add_bottom=0,add_left=0,add_right=0,add_top=0,add_value_plane_1=0,add_value_plane_2=0,add_value_plane_3=0,add_value_plane_4=0,color_bits=8,color_planes=3,drop_bottom=6,drop_left=8,drop_right=8,drop_top=6,height_in=972,width_in=1296"
+   instancePathKey="unsaved:.:video_clipper_0"
+   kind="altera_up_avalon_video_clipper"
+   version="18.0"
+   name="unsaved_video_clipper_0">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="add_bottom" value="0" />
+  <parameter name="color_planes" value="3" />
+  <parameter name="width_in" value="1296" />
+  <parameter name="drop_bottom" value="6" />
+  <parameter name="color_bits" value="8" />
+  <parameter name="drop_left" value="8" />
+  <parameter name="drop_right" value="8" />
+  <parameter name="add_left" value="0" />
+  <parameter name="drop_top" value="6" />
+  <parameter name="add_right" value="0" />
+  <parameter name="add_top" value="0" />
+  <parameter name="add_value_plane_2" value="0" />
+  <parameter name="height_in" value="972" />
+  <parameter name="add_value_plane_1" value="0" />
+  <parameter name="add_value_plane_4" value="0" />
+  <parameter name="add_value_plane_3" value="0" />
+  <generatedFiles>
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_add.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_drop.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_counters.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_clipper_0.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/altera_up_avalon_video_clipper_hw.tcl" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_add.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_drop.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_counters.v" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="unsaved" as="video_clipper_0" />
+  <messages>
+   <message level="Debug" culprit="unsaved">queue size: 5 starting:altera_up_avalon_video_clipper "submodules/unsaved_video_clipper_0"</message>
+   <message level="Info" culprit="video_clipper_0">Starting generation of the video clipper</message>
+   <message level="Info" culprit="video_clipper_0"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_video_clipper</b> "<b>video_clipper_0</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_up_avalon_video_rgb_resampler:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,alpha=1023,input_bits=8,input_planes=3,input_type=24-bit RGB,output_bits=10,output_planes=3,output_type=30-bit RGB"
+   instancePathKey="unsaved:.:video_rgb_resampler_0"
+   kind="altera_up_avalon_video_rgb_resampler"
+   version="18.0"
+   name="unsaved_video_rgb_resampler_0">
+  <parameter name="output_bits" value="10" />
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="output_type" value="30-bit RGB" />
+  <parameter name="input_bits" value="8" />
+  <parameter name="output_planes" value="3" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="alpha" value="1023" />
+  <parameter name="input_type" value="24-bit RGB" />
+  <parameter name="input_planes" value="3" />
+  <generatedFiles>
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_rgb_resampler/altera_up_avalon_video_rgb_resampler_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="unsaved" as="video_rgb_resampler_0" />
+  <messages>
+   <message level="Debug" culprit="unsaved">queue size: 4 starting:altera_up_avalon_video_rgb_resampler "submodules/unsaved_video_rgb_resampler_0"</message>
+   <message level="Info" culprit="video_rgb_resampler_0">Starting Generation of Video RGB Resampler</message>
+   <message level="Info" culprit="video_rgb_resampler_0"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_video_rgb_resampler</b> "<b>video_rgb_resampler_0</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_up_avalon_video_scaler:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,channel_size=0,color_bits=8,color_planes=3,height_in=960,height_out=480,height_scaling=0.5,include_channel=false,width_in=1280,width_out=640,width_scaling=0.5"
+   instancePathKey="unsaved:.:video_scaler_0"
+   kind="altera_up_avalon_video_scaler"
+   version="18.0"
+   name="unsaved_video_scaler_0">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="channel_size" value="0" />
+  <parameter name="color_bits" value="8" />
+  <parameter name="height_scaling" value="0.5" />
+  <parameter name="include_channel" value="false" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="width_out" value="640" />
+  <parameter name="height_in" value="960" />
+  <parameter name="width_scaling" value="0.5" />
+  <parameter name="color_planes" value="3" />
+  <parameter name="width_in" value="1280" />
+  <parameter name="height_out" value="480" />
+  <generatedFiles>
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_shrink.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_multiply_width.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_multiply_height.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_scaler_0.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/altera_up_avalon_video_scaler_hw.tcl" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_shrink.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_multiply_width.v" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_multiply_height.v" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="unsaved" as="video_scaler_0" />
+  <messages>
+   <message level="Debug" culprit="unsaved">queue size: 3 starting:altera_up_avalon_video_scaler "submodules/unsaved_video_scaler_0"</message>
+   <message level="Info" culprit="video_scaler_0">Starting Generation of Video Scaler</message>
+   <message level="Info" culprit="video_scaler_0"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_video_scaler</b> "<b>video_scaler_0</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_up_avalon_video_test_pattern:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,height=480,width=640"
+   instancePathKey="unsaved:.:video_test_pattern_0"
+   kind="altera_up_avalon_video_test_pattern"
+   version="18.0"
+   name="unsaved_video_test_pattern_0">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="width" value="640" />
+  <parameter name="height" value="480" />
+  <generatedFiles>
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_test_pattern_0.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_test_pattern/altera_up_avalon_video_test_pattern_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="unsaved" as="video_test_pattern_0" />
+  <messages>
+   <message level="Debug" culprit="unsaved">queue size: 2 starting:altera_up_avalon_video_test_pattern "submodules/unsaved_video_test_pattern_0"</message>
+   <message level="Info" culprit="video_test_pattern_0">Starting Generation of Test Pattern Generator</message>
+   <message level="Info" culprit="video_test_pattern_0"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_video_test_pattern</b> "<b>video_test_pattern_0</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_up_avalon_video_vga_controller:18.1:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,board=DE2i-150,device=VGA Connector,resolution=VGA 640x480,underflow_flag=false"
+   instancePathKey="unsaved:.:video_vga_controller_0"
+   kind="altera_up_avalon_video_vga_controller"
+   version="18.1"
+   name="unsaved_video_vga_controller_0">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
+  <parameter name="underflow_flag" value="false" />
+  <parameter name="device" value="VGA Connector" />
+  <parameter name="resolution" value="VGA 640x480" />
+  <parameter name="board" value="DE2i-150" />
+  <generatedFiles>
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v"
+       type="VERILOG" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_vga_controller/altera_up_avalon_video_vga_controller_hw.tcl" />
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_vga_controller/hdl/altera_up_avalon_video_vga_timing.v" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="unsaved" as="video_vga_controller_0" />
+  <messages>
+   <message level="Debug" culprit="unsaved">queue size: 1 starting:altera_up_avalon_video_vga_controller "submodules/unsaved_video_vga_controller_0"</message>
+   <message level="Info" culprit="video_vga_controller_0">Starting Generation of VGA Controller</message>
+   <message level="Info" culprit="video_vga_controller_0"><![CDATA["<b>unsaved</b>" instantiated <b>altera_up_avalon_video_vga_controller</b> "<b>video_vga_controller_0</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_reset_controller:18.1:ADAPT_RESET_REQUEST=0,MIN_RST_ASSERTION_TIME=3,NUM_RESET_INPUTS=1,OUTPUT_RESET_SYNC_EDGES=deassert,RESET_REQUEST_PRESENT=0,RESET_REQ_EARLY_DSRT_TIME=1,RESET_REQ_WAIT_TIME=1,SYNC_DEPTH=2,USE_RESET_REQUEST_IN0=0,USE_RESET_REQUEST_IN1=0,USE_RESET_REQUEST_IN10=0,USE_RESET_REQUEST_IN11=0,USE_RESET_REQUEST_IN12=0,USE_RESET_REQUEST_IN13=0,USE_RESET_REQUEST_IN14=0,USE_RESET_REQUEST_IN15=0,USE_RESET_REQUEST_IN2=0,USE_RESET_REQUEST_IN3=0,USE_RESET_REQUEST_IN4=0,USE_RESET_REQUEST_IN5=0,USE_RESET_REQUEST_IN6=0,USE_RESET_REQUEST_IN7=0,USE_RESET_REQUEST_IN8=0,USE_RESET_REQUEST_IN9=0,USE_RESET_REQUEST_INPUT=0"
+   instancePathKey="unsaved:.:rst_controller"
+   kind="altera_reset_controller"
+   version="18.1"
+   name="altera_reset_controller">
+  <generatedFiles>
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v"
+       type="VERILOG"
+       attributes="" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v"
+       type="VERILOG"
+       attributes="" />
+   <file
+       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.sdc"
+       type="SDC"
+       attributes="" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/merlin/altera_reset_controller/altera_reset_controller_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="unsaved" as="rst_controller" />
+  <messages>
+   <message level="Debug" culprit="unsaved">queue size: 0 starting:altera_reset_controller "submodules/altera_reset_controller"</message>
+   <message level="Info" culprit="rst_controller"><![CDATA["<b>unsaved</b>" instantiated <b>altera_reset_controller</b> "<b>rst_controller</b>"]]></message>
+  </messages>
+ </entity>
+</deploy>

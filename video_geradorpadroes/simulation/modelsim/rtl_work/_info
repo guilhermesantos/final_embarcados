@@ -1,0 +1,230 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/temp/video_geradorpadroes/simulation/modelsim
+valtera_reset_controller
+Z1 !s110 1560522669
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+I14Jg7JJ5<ZlLS9`ieP<>B2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1560478623
+8C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v
+FC:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v
+L0 42
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1560522669.000000
+!s107 C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules|C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules
+Z8 tCvgOpt 0
+valtera_reset_synchronizer
+R1
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+I5Wk[T_nJjCdDM@>cFT6N[1
+R2
+R0
+R3
+8C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v
+FC:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v
+L0 24
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules|C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R6
+R7
+R8
+valtera_up_avalon_video_vga_timing
+R1
+!i10b 1
+!s100 f77gT?TV7S[KXD:O7VH0H1
+I[6RoCTGz=Hd8aF:MZIm`i0
+R2
+R0
+R3
+8C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v
+FC:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v
+Z9 L0 28
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules|C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v|
+!i113 1
+R6
+R7
+R8
+valtplldir
+R1
+!i10b 1
+!s100 TezTncgJZL[:jH]3=?5hl2
+Iz6CKjfE8VoVGG?fA06b=H2
+R2
+R0
+w1560522480
+8C:/temp/video_geradorpadroes/altplldir.v
+FC:/temp/video_geradorpadroes/altplldir.v
+L0 39
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/temp/video_geradorpadroes/altplldir.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes|C:/temp/video_geradorpadroes/altplldir.v|
+!i113 1
+R6
+Z10 !s92 -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes
+R8
+valtplldir_altpll
+R1
+!i10b 1
+!s100 [PN?n;@gh7@bE?0C<R]mD3
+ITHLPGB8S0diMN8P>hiDLP1
+R2
+R0
+w1560522607
+8C:/temp/video_geradorpadroes/db/altplldir_altpll.v
+FC:/temp/video_geradorpadroes/db/altplldir_altpll.v
+L0 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/temp/video_geradorpadroes/db/altplldir_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/db|C:/temp/video_geradorpadroes/db/altplldir_altpll.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/db
+R8
+vteste
+R1
+!i10b 1
+!s100 EflXfCK3=49?K@K6]RzCP1
+I><CJAQAZRRK;7R4k8n9L`1
+R2
+R0
+w1560522581
+8C:/temp/video_geradorpadroes/teste.v
+FC:/temp/video_geradorpadroes/teste.v
+L0 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/temp/video_geradorpadroes/teste.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes|C:/temp/video_geradorpadroes/teste.v|
+!i113 1
+R6
+R10
+R8
+vunsaved
+R1
+!i10b 1
+!s100 ccCIJFa_K6@5Q[[[JCd^R2
+I^_J2OSKXXfMfdgH;3Ca>b0
+R2
+R0
+R3
+8C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v
+FC:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v
+L0 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis|C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis
+R8
+vunsaved_video_rgb_resampler_0
+R1
+!i10b 1
+!s100 ckFV?lTjT^T87GTLYz_0n0
+I3nGC[LIA0H@h[Xz1Q]l8B1
+R2
+R0
+R3
+8C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v
+FC:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v
+R9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules|C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v|
+!i113 1
+R6
+R7
+R8
+vunsaved_video_test_pattern_0
+R1
+!i10b 1
+!s100 h6IhYCo7SFWABRmn71@Gg3
+IhgO>nee?h3R[Z2Rfg56P81
+R2
+R0
+R3
+8C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_test_pattern_0.v
+FC:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_test_pattern_0.v
+R9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_test_pattern_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules|C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_test_pattern_0.v|
+!i113 1
+R6
+R7
+R8
+vunsaved_video_vga_controller_0
+R1
+!i10b 1
+!s100 Cl1lIAcaPA[VnM:@6=Xib2
+I8H:aGj8ee9V42fPo3FENZ3
+R2
+R0
+R3
+8C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v
+FC:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v
+R9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules|C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v|
+!i113 1
+R6
+R7
+R8
