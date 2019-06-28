@@ -10,261 +10,323 @@
 # Copying C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes {C:/temp/video_geradorpadroes/teste.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/altplldir.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:31:09 on Jun 14,2019
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/temp/video_geradorpadroes" C:/temp/video_geradorpadroes/teste.v 
-# -- Compiling module teste
-# 
-# Top level modules:
-# 	teste
-# End time: 11:31:09 on Jun 14,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes {C:/temp/video_geradorpadroes/altplldir.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:31:09 on Jun 14,2019
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/temp/video_geradorpadroes" C:/temp/video_geradorpadroes/altplldir.v 
+# Start time: 15:28:51 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/altplldir.v 
 # -- Compiling module altplldir
 # 
 # Top level modules:
 # 	altplldir
-# End time: 11:31:09 on Jun 14,2019, Elapsed time: 0:00:00
+# End time: 15:28:52 on Jun 28,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis {C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:31:09 on Jun 14,2019
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis" C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v 
+# Start time: 15:28:53 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v 
 # -- Compiling module unsaved
 # 
 # Top level modules:
 # 	unsaved
-# End time: 11:31:09 on Jun 14,2019, Elapsed time: 0:00:00
+# End time: 15:28:53 on Jun 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_bayer_resampler.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:31:09 on Jun 14,2019
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules" C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v 
+# Start time: 15:28:53 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_bayer_resampler.v 
+# -- Compiling module unsaved_bayer_resampler
+# 
+# Top level modules:
+# 	unsaved_bayer_resampler
+# End time: 15:28:53 on Jun 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altshift_taps.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:53 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altshift_taps.v 
+# -- Compiling module altshift_taps
+# -- Compiling module shiftreg
+# -- Compiling module dff_bus
+# -- Compiling module dffep
+# 
+# Top level modules:
+# 	altshift_taps
+# End time: 15:28:53 on Jun 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:53 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v 
+# -- Compiling module unsaved_camera_config
+# 
+# Top level modules:
+# 	unsaved_camera_config
+# End time: 15:28:53 on Jun 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:53 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init.v 
+# -- Compiling module altera_up_av_config_auto_init
+# 
+# Top level modules:
+# 	altera_up_av_config_auto_init
+# End time: 15:28:53 on Jun 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_d5m.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:53 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_d5m.v 
+# -- Compiling module altera_up_av_config_auto_init_d5m
+# 
+# Top level modules:
+# 	altera_up_av_config_auto_init_d5m
+# End time: 15:28:53 on Jun 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:53 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v 
+# -- Compiling module altera_up_av_config_serial_bus_controller
+# 
+# Top level modules:
+# 	altera_up_av_config_serial_bus_controller
+# End time: 15:28:53 on Jun 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_slow_clock_generator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:53 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_slow_clock_generator.v 
+# -- Compiling module altera_up_slow_clock_generator
+# 
+# Top level modules:
+# 	altera_up_slow_clock_generator
+# End time: 15:28:54 on Jun 28,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:54 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_decoder.v 
+# -- Compiling module unsaved_camera_decoder
+# 
+# Top level modules:
+# 	unsaved_camera_decoder
+# End time: 15:28:54 on Jun 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_camera_decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:54 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_camera_decoder.v 
+# -- Compiling module altera_up_video_camera_decoder
+# 
+# Top level modules:
+# 	altera_up_video_camera_decoder
+# End time: 15:28:54 on Jun 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_dual_clock_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:54 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_dual_clock_fifo.v 
+# -- Compiling module altera_up_video_dual_clock_fifo
+# 
+# Top level modules:
+# 	altera_up_video_dual_clock_fifo
+# End time: 15:28:54 on Jun 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/dcfifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:54 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/dcfifo.v 
+# -- Compiling module dcfifo
+# 
+# Top level modules:
+# 	dcfifo
+# End time: 15:28:54 on Jun 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_clipper_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:55 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_clipper_0.v 
+# -- Compiling module unsaved_video_clipper_0
+# 
+# Top level modules:
+# 	unsaved_video_clipper_0
+# End time: 15:28:55 on Jun 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_drop.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:55 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_drop.v 
+# -- Compiling module altera_up_video_clipper_drop
+# 
+# Top level modules:
+# 	altera_up_video_clipper_drop
+# End time: 15:28:55 on Jun 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_counters.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:55 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_counters.v 
+# -- Compiling module altera_up_video_clipper_counters
+# 
+# Top level modules:
+# 	altera_up_video_clipper_counters
+# End time: 15:28:55 on Jun 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_add.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:55 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_add.v 
+# -- Compiling module altera_up_video_clipper_add
+# 
+# Top level modules:
+# 	altera_up_video_clipper_add
+# End time: 15:28:55 on Jun 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:55 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v 
 # -- Compiling module unsaved_video_rgb_resampler_0
 # 
 # Top level modules:
 # 	unsaved_video_rgb_resampler_0
-# End time: 11:31:09 on Jun 14,2019, Elapsed time: 0:00:00
+# End time: 15:28:55 on Jun 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_test_pattern_0.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_scaler_0.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:31:09 on Jun 14,2019
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules" C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_test_pattern_0.v 
-# -- Compiling module unsaved_video_test_pattern_0
+# Start time: 15:28:56 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_scaler_0.v 
+# -- Compiling module unsaved_video_scaler_0
 # 
 # Top level modules:
-# 	unsaved_video_test_pattern_0
-# End time: 11:31:09 on Jun 14,2019, Elapsed time: 0:00:00
+# 	unsaved_video_scaler_0
+# End time: 15:28:56 on Jun 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_shrink.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:31:09 on Jun 14,2019
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules" C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v 
+# Start time: 15:28:56 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_shrink.v 
+# -- Compiling module altera_up_video_scaler_shrink
+# 
+# Top level modules:
+# 	altera_up_video_scaler_shrink
+# End time: 15:28:56 on Jun 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:56 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v 
 # -- Compiling module unsaved_video_vga_controller_0
 # 
 # Top level modules:
 # 	unsaved_video_vga_controller_0
-# End time: 11:31:09 on Jun 14,2019, Elapsed time: 0:00:00
+# End time: 15:28:56 on Jun 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:31:09 on Jun 14,2019
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules" C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v 
+# Start time: 15:28:56 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v 
 # -- Compiling module altera_up_avalon_video_vga_timing
 # 
 # Top level modules:
 # 	altera_up_avalon_video_vga_timing
-# End time: 11:31:09 on Jun 14,2019, Elapsed time: 0:00:00
+# End time: 15:28:57 on Jun 28,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:31:09 on Jun 14,2019
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules" C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v 
+# Start time: 15:28:57 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v 
 # -- Compiling module altera_reset_controller
 # 
 # Top level modules:
 # 	altera_reset_controller
-# End time: 11:31:09 on Jun 14,2019, Elapsed time: 0:00:00
+# End time: 15:28:57 on Jun 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:31:09 on Jun 14,2019
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules" C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v 
+# Start time: 15:28:57 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v 
 # -- Compiling module altera_reset_synchronizer
 # 
 # Top level modules:
 # 	altera_reset_synchronizer
-# End time: 11:31:09 on Jun 14,2019, Elapsed time: 0:00:00
+# End time: 15:28:57 on Jun 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/db {C:/temp/video_geradorpadroes/db/altplldir_altpll.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/db {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/db/altplldir_altpll1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:31:09 on Jun 14,2019
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/temp/video_geradorpadroes/db" C:/temp/video_geradorpadroes/db/altplldir_altpll.v 
-# -- Compiling module altplldir_altpll
+# Start time: 15:28:57 on Jun 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/db" C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/db/altplldir_altpll1.v 
+# -- Compiling module altplldir_altpll1
 # 
 # Top level modules:
-# 	altplldir_altpll
-# End time: 11:31:09 on Jun 14,2019, Elapsed time: 0:00:00
+# 	altplldir_altpll1
+# End time: 15:28:57 on Jun 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vsim work.teste
-# vsim work.teste 
-# Start time: 11:31:15 on Jun 14,2019
-# Loading work.teste
-# Loading work.unsaved
-# Loading work.unsaved_video_rgb_resampler_0
-# Loading work.unsaved_video_test_pattern_0
-# Loading work.unsaved_video_vga_controller_0
-# Loading work.altera_up_avalon_video_vga_timing
-# Loading work.altera_reset_controller
-# Loading work.altplldir
-# ** Error: (vsim-3033) C:/temp/video_geradorpadroes/altplldir.v(53): Instantiation of 'altpll' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /teste/b2v_inst5 File: C:/temp/video_geradorpadroes/altplldir.v
-#         Searched libraries:
-#             C:/temp/video_geradorpadroes/simulation/modelsim/rtl_work
-# Error loading design
-# End time: 11:31:16 on Jun 14,2019, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-vsim work.altplldir_altpll
-# vsim work.altplldir_altpll 
-# Start time: 11:32:34 on Jun 14,2019
-# Loading work.altplldir_altpll
-# ** Error: (vsim-3033) C:/temp/video_geradorpadroes/db/altplldir_altpll.v(46): Instantiation of 'cycloneiv_pll' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /altplldir_altpll File: C:/temp/video_geradorpadroes/db/altplldir_altpll.v
-#         Searched libraries:
-#             C:/temp/video_geradorpadroes/simulation/modelsim/rtl_work
-# Error loading design
-# End time: 11:32:34 on Jun 14,2019, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
 vsim work.unsaved
 # vsim work.unsaved 
-# Start time: 11:34:08 on Jun 14,2019
+# Start time: 15:29:07 on Jun 28,2019
 # Loading work.unsaved
+# Loading work.unsaved_bayer_resampler
+# Loading work.altshift_taps
+# Loading work.unsaved_camera_config
+# Loading work.altera_up_av_config_auto_init
+# Loading work.altera_up_av_config_auto_init_d5m
+# Loading work.altera_up_av_config_serial_bus_controller
+# Loading work.altera_up_slow_clock_generator
+# Loading work.unsaved_camera_decoder
+# Loading work.altera_up_video_camera_decoder
+# Loading work.altera_up_video_dual_clock_fifo
+# Loading work.dcfifo
+# Loading work.unsaved_video_clipper_0
+# Loading work.altera_up_video_clipper_drop
+# Loading work.altera_up_video_clipper_counters
+# Loading work.altera_up_video_clipper_add
 # Loading work.unsaved_video_rgb_resampler_0
-# Loading work.unsaved_video_test_pattern_0
+# Loading work.unsaved_video_scaler_0
+# Loading work.altera_up_video_scaler_shrink
 # Loading work.unsaved_video_vga_controller_0
 # Loading work.altera_up_avalon_video_vga_timing
 # Loading work.altera_reset_controller
+# Loading work.shiftreg
 # Loading work.altera_reset_synchronizer
-# ** Warning: (vsim-3017) C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v(31): [TFMPC] - Too few port connections. Expected 16, found 14.
-#    Time: 0 ps  Iteration: 0  Instance: /unsaved/video_rgb_resampler_0 File: C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v
-# ** Warning: (vsim-3722) C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v(31): [TFMPC] - Missing connection for port 'stream_in_empty'.
-# ** Warning: (vsim-3722) C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v(31): [TFMPC] - Missing connection for port 'stream_out_empty'.
-# ** Warning: (vsim-3017) C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v(48): [TFMPC] - Too few port connections. Expected 8, found 7.
-#    Time: 0 ps  Iteration: 0  Instance: /unsaved/video_test_pattern_0 File: C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_test_pattern_0.v
-# ** Warning: (vsim-3722) C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v(48): [TFMPC] - Missing connection for port 'empty'.
-# ** Warning: (vsim-3017) C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v(58): [TFMPC] - Too few port connections. Expected 16, found 15.
-#    Time: 0 ps  Iteration: 0  Instance: /unsaved/video_vga_controller_0 File: C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v
-# ** Warning: (vsim-3722) C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v(58): [TFMPC] - Missing connection for port 'empty'.
-add wave -position insertpoint  \
-sim:/unsaved/clk_clk \
-sim:/unsaved/reset_reset_n \
-sim:/unsaved/video_vga_controller_0_external_interface_CLK \
-sim:/unsaved/video_vga_controller_0_external_interface_HS \
-sim:/unsaved/video_vga_controller_0_external_interface_VS \
-sim:/unsaved/video_vga_controller_0_external_interface_BLANK \
-sim:/unsaved/video_vga_controller_0_external_interface_SYNC \
-sim:/unsaved/video_vga_controller_0_external_interface_R \
-sim:/unsaved/video_vga_controller_0_external_interface_G \
-sim:/unsaved/video_vga_controller_0_external_interface_B
-force -freeze sim:/unsaved/clk_clk 1 0, 0 {50 ps} -r 100
-force -freeze sim:/unsaved/reset_reset_n 1 0
-force -freeze sim:/unsaved/reset_reset_n 0 0
-run
-run
-run
-run
-force -freeze sim:/unsaved/reset_reset_n 1 0
-run
-run
-run
-run
-run
-run
-# Can't move the Now cursor.
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run -all
-# Break key hit
-# Simulation stop requested.
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-quit
-# End time: 11:36:18 on Jun 14,2019, Elapsed time: 0:02:10
-# Errors: 1, Warnings: 7
+# Loading work.dff_bus
+# Loading work.dffep
+# ** Warning: (vsim-3017) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(53): [TFMPC] - Too few port connections. Expected 14, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /unsaved/bayer_resampler File: C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_bayer_resampler.v
+# ** Warning: (vsim-3722) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(53): [TFMPC] - Missing connection for port 'stream_in_empty'.
+# ** Warning: (vsim-3722) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(53): [TFMPC] - Missing connection for port 'stream_out_empty'.
+# ** Warning: (vsim-3017) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(68): [TFMPC] - Too few port connections. Expected 13, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /unsaved/camera_config File: C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v
+# ** Warning: (vsim-3722) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(68): [TFMPC] - Missing connection for port 'irq'.
+# ** Warning: (vsim-3722) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(68): [TFMPC] - Missing connection for port 'I2C_SCEN'.
+# ** Warning: (vsim-3017) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v(361): [TFMPC] - Too few port connections. Expected 12, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /unsaved/camera_config/AV_Config_Auto_Init File: C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init.v
+# ** Warning: (vsim-3015) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v(406): [PCDPC] - Port size (6) does not match connection size (32) for port 'restart_counter'. The port definition is at: C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v(39).
+#    Time: 0 ps  Iteration: 0  Instance: /unsaved/camera_config/Serial_Bus_Controller File: C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v
+# ** Warning: (vsim-3015) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v(406): [PCDPC] - Port size (36) does not match connection size (27) for port 'restart_transfer_mask'. The port definition is at: C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /unsaved/camera_config/Serial_Bus_Controller File: C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v
+# ** Warning: (vsim-3017) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(82): [TFMPC] - Too few port connections. Expected 14, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /unsaved/camera_decoder File: C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_decoder.v
+# ** Warning: (vsim-3722) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(82): [TFMPC] - Missing connection for port 'overflow_flag'.
+# ** Warning: (vsim-3722) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(82): [TFMPC] - Missing connection for port 'stream_out_empty'.
+# ** Warning: (vsim-3017) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(97): [TFMPC] - Too few port connections. Expected 14, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /unsaved/video_clipper_0 File: C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_clipper_0.v
+# ** Warning: (vsim-3722) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(97): [TFMPC] - Missing connection for port 'stream_in_empty'.
+# ** Warning: (vsim-3722) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(97): [TFMPC] - Missing connection for port 'stream_out_empty'.
+# ** Warning: (vsim-3017) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(112): [TFMPC] - Too few port connections. Expected 16, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /unsaved/video_rgb_resampler_0 File: C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v
+# ** Warning: (vsim-3722) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(112): [TFMPC] - Missing connection for port 'stream_in_empty'.
+# ** Warning: (vsim-3722) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(112): [TFMPC] - Missing connection for port 'stream_out_empty'.
+# ** Warning: (vsim-3017) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(129): [TFMPC] - Too few port connections. Expected 15, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /unsaved/video_scaler_0 File: C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_scaler_0.v
+# ** Warning: (vsim-3722) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(129): [TFMPC] - Missing connection for port 'stream_in_empty'.
+# ** Warning: (vsim-3722) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(129): [TFMPC] - Missing connection for port 'stream_out_channel'.
+# ** Warning: (vsim-3722) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(129): [TFMPC] - Missing connection for port 'stream_out_empty'.
+# ** Warning: (vsim-3017) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(144): [TFMPC] - Too few port connections. Expected 16, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /unsaved/video_vga_controller_0 File: C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v
+# ** Warning: (vsim-3722) C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v(144): [TFMPC] - Missing connection for port 'empty'.
+# ** Warning: Design size of 23354 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.

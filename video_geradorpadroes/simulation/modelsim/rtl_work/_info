@@ -7,47 +7,113 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/temp/video_geradorpadroes/simulation/modelsim
+Z0 dC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/simulation/modelsim
 valtera_reset_controller
-Z1 !s110 1560522669
+Z1 !s110 1561746537
 !i10b 1
 !s100 z[H_hRO9gO=:^2E3_jWH03
-I14Jg7JJ5<ZlLS9`ieP<>B2
+I55^zoB?e_83MWk@n^68R@1
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1560478623
-8C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v
-FC:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v
+Z3 w1561744401
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v
 L0 42
 Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1560522669.000000
-!s107 C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules|C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v|
+Z5 !s108 1561746537.000000
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v|
 !i113 1
 Z6 o-vlog01compat -work work
-Z7 !s92 -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules
 Z8 tCvgOpt 0
 valtera_reset_synchronizer
 R1
 !i10b 1
 !s100 oWLYmSO[EOX[G0PgQhZ2=0
-I5Wk[T_nJjCdDM@>cFT6N[1
+IlX6zZDX4N`h3OQ<;cnElV0
 R2
 R0
 R3
-8C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v
-FC:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v
 L0 24
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules|C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v|
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R6
+R7
+R8
+valtera_up_av_config_auto_init
+Z9 !s110 1561746533
+!i10b 1
+!s100 llVi9JhWEDV8H5NR35H^R2
+IcnhnARe?da?GAA2nUcG1b2
+R2
+R0
+Z10 w1561744398
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init.v
+Z11 L0 29
+R4
+r1
+!s85 0
+31
+Z12 !s108 1561746533.000000
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init.v|
+!i113 1
+R6
+R7
+R8
+valtera_up_av_config_auto_init_d5m
+R9
+!i10b 1
+!s100 ];VUeb3jd3h<6^;_Do?nf2
+I:43MJY=5;VCXSMOAaDNJF1
+R2
+R0
+R10
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_d5m.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_d5m.v
+Z13 L0 28
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_d5m.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_d5m.v|
+!i113 1
+R6
+R7
+R8
+valtera_up_av_config_serial_bus_controller
+R9
+!i10b 1
+!s100 XDSjk8^6l9VTIENMO[PEF1
+IWgl0fTM^HSYfh^4L^]kjN1
+R2
+R0
+R10
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v
+R11
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v|
 !i113 1
 R6
 R7
@@ -56,174 +122,504 @@ valtera_up_avalon_video_vga_timing
 R1
 !i10b 1
 !s100 f77gT?TV7S[KXD:O7VH0H1
-I[6RoCTGz=Hd8aF:MZIm`i0
+IW6W31>N6h^R8R_lfGoGfB1
 R2
 R0
 R3
-8C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v
-FC:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v
-Z9 L0 28
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v
+R13
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules|C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v|
+Z14 !s108 1561746536.000000
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v|
+!i113 1
+R6
+R7
+R8
+valtera_up_slow_clock_generator
+Z15 !s110 1561746534
+!i10b 1
+!s100 YXh=3j7I_EN:]o_[QD[]70
+IO<[7C<>Zi2hd6EYYbBDGm3
+R2
+R0
+R10
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_slow_clock_generator.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_slow_clock_generator.v
+L0 34
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_slow_clock_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_slow_clock_generator.v|
+!i113 1
+R6
+R7
+R8
+valtera_up_video_camera_decoder
+R15
+!i10b 1
+!s100 :JJ>ASjZ8[;JOR?o0SeC@0
+I`]CFk7z?9KYclJ@BHmB`72
+R2
+R0
+Z16 w1561744399
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_camera_decoder.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_camera_decoder.v
+R13
+R4
+r1
+!s85 0
+31
+Z17 !s108 1561746534.000000
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_camera_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_camera_decoder.v|
+!i113 1
+R6
+R7
+R8
+valtera_up_video_clipper_add
+Z18 !s110 1561746535
+!i10b 1
+!s100 LjbUHG3[B43`KJGJe=6WB1
+IX5ac4@11_1ci[aj<eP6fK0
+R2
+R0
+Z19 w1561744400
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_add.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_add.v
+R13
+R4
+r1
+!s85 0
+31
+Z20 !s108 1561746535.000000
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_add.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_add.v|
+!i113 1
+R6
+R7
+R8
+valtera_up_video_clipper_counters
+R18
+!i10b 1
+!s100 N@FI>=Yak1lFN9TVi@[P53
+I]SUz<C`gMU?K=ZKzW[:gg1
+R2
+R0
+R19
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_counters.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_counters.v
+R11
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_counters.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_counters.v|
+!i113 1
+R6
+R7
+R8
+valtera_up_video_clipper_drop
+R18
+!i10b 1
+!s100 cR3cQR5]5TmcUm`idB0m22
+Id[z=HcLemh0_UB1OPQY5I0
+R2
+R0
+R19
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_drop.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_drop.v
+R11
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_drop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_drop.v|
+!i113 1
+R6
+R7
+R8
+valtera_up_video_dual_clock_fifo
+R15
+!i10b 1
+!s100 2PLoJYTQVhf7VPNEcKe^n1
+IfUPUdF3jV@8d7_UG6Xb4F0
+R2
+R0
+R16
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_dual_clock_fifo.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_dual_clock_fifo.v
+L0 52
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_dual_clock_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_dual_clock_fifo.v|
+!i113 1
+R6
+R7
+R8
+valtera_up_video_scaler_shrink
+Z21 !s110 1561746536
+!i10b 1
+!s100 P;2:4FGDUzFGNJ6gI9;in1
+IWbcL5UJHV?o8H^AZ^6beZ0
+R2
+R0
+R3
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_shrink.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_shrink.v
+R13
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_shrink.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_shrink.v|
 !i113 1
 R6
 R7
 R8
 valtplldir
-R1
+!s110 1561746532
 !i10b 1
-!s100 TezTncgJZL[:jH]3=?5hl2
-Iz6CKjfE8VoVGG?fA06b=H2
+!s100 B@?lLnRi:7bMGFGBiJ4[L3
+IoLnm<;`Zc_z`2]9ffQF8D3
 R2
 R0
-w1560522480
-8C:/temp/video_geradorpadroes/altplldir.v
-FC:/temp/video_geradorpadroes/altplldir.v
+w1560523336
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/altplldir.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/altplldir.v
 L0 39
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/temp/video_geradorpadroes/altplldir.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes|C:/temp/video_geradorpadroes/altplldir.v|
+!s108 1561746531.000000
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/altplldir.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/altplldir.v|
 !i113 1
 R6
-Z10 !s92 -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes
+!s92 -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes
 R8
-valtplldir_altpll
+valtplldir_altpll1
 R1
 !i10b 1
-!s100 [PN?n;@gh7@bE?0C<R]mD3
-ITHLPGB8S0diMN8P>hiDLP1
+!s100 <9AD<_UzPJ3=Z]K4<BI?E2
+IPlTa<8bRmo4L_9;o<f^`E1
 R2
 R0
-w1560522607
-8C:/temp/video_geradorpadroes/db/altplldir_altpll.v
-FC:/temp/video_geradorpadroes/db/altplldir_altpll.v
-L0 29
+w1560523436
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/db/altplldir_altpll1.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/db/altplldir_altpll1.v
+R11
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/temp/video_geradorpadroes/db/altplldir_altpll.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/db|C:/temp/video_geradorpadroes/db/altplldir_altpll.v|
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/db/altplldir_altpll1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/db|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/db/altplldir_altpll1.v|
 !i113 1
 R6
-!s92 -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/db
+!s92 -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/db
 R8
-vteste
-R1
+valtshift_taps
+R9
 !i10b 1
-!s100 EflXfCK3=49?K@K6]RzCP1
-I><CJAQAZRRK;7R4k8n9L`1
+!s100 K`@HSAGNLz_c;0VOB]T`O1
+I^1SX;29f9lgS70KNGhLed0
 R2
 R0
-w1560522581
-8C:/temp/video_geradorpadroes/teste.v
-FC:/temp/video_geradorpadroes/teste.v
-L0 19
+Z22 w1561741662
+Z23 8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altshift_taps.v
+Z24 FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altshift_taps.v
+L0 17
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/temp/video_geradorpadroes/teste.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes|C:/temp/video_geradorpadroes/teste.v|
+R12
+Z25 !s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altshift_taps.v|
+Z26 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altshift_taps.v|
 !i113 1
 R6
-R10
+R7
+R8
+vdcfifo
+R15
+!i10b 1
+!s100 __jVYOQS7>00ZU:dMNX]Z0
+IXZ^hOKFPjbGHgZ>[XFzF^1
+R2
+R0
+w1561740922
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/dcfifo.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/dcfifo.v
+L0 14
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/dcfifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/dcfifo.v|
+!i113 1
+R6
+R7
+R8
+vdff_bus
+R9
+!i10b 1
+!s100 7GZ_GY?@=M1;1;XkaSQI?1
+IkRcAobD^cd>PR23Cbo?RJ1
+R2
+R0
+R22
+R23
+R24
+L0 101
+R4
+r1
+!s85 0
+31
+R12
+R25
+R26
+!i113 1
+R6
+R7
+R8
+vdffep
+R9
+!i10b 1
+!s100 Ii1aSo<D4A9KmgggcQgD03
+IckMU1=o12bZ7]_GZZ5R@_0
+R2
+R0
+R22
+R23
+R24
+L0 133
+R4
+r1
+!s85 0
+31
+R12
+R25
+R26
+!i113 1
+R6
+R7
+R8
+vshiftreg
+R9
+!i10b 1
+!s100 P<L<Ld7oFfNhazR7Qd]A?0
+I=8Z`A1K78;M6N1RSccOTf0
+R2
+R0
+R22
+R23
+R24
+L0 79
+R4
+r1
+!s85 0
+31
+R12
+R25
+R26
+!i113 1
+R6
+R7
 R8
 vunsaved
-R1
+R9
 !i10b 1
-!s100 ccCIJFa_K6@5Q[[[JCd^R2
-I^_J2OSKXXfMfdgH;3Ca>b0
+!s100 a=Y4o?8S7c9MRYDUMjTA32
+I0z@U_;4SDb<Rz6LjTc]VZ1
 R2
 R0
-R3
-8C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v
-FC:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v
+w1561744397
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v
 L0 6
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis|C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v|
+R12
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v|
 !i113 1
 R6
-!s92 -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis
+!s92 -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis
 R8
-vunsaved_video_rgb_resampler_0
-R1
+vunsaved_bayer_resampler
+R9
 !i10b 1
-!s100 ckFV?lTjT^T87GTLYz_0n0
-I3nGC[LIA0H@h[Xz1Q]l8B1
+!s100 dOeI=PZCM@6jzogekkTz03
+IRjRF3EK7W:1hWlNHE;]2=0
 R2
 R0
-R3
-8C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v
-FC:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v
-R9
+R10
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_bayer_resampler.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_bayer_resampler.v
+L0 30
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules|C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v|
+R12
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_bayer_resampler.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_bayer_resampler.v|
 !i113 1
 R6
 R7
 R8
-vunsaved_video_test_pattern_0
-R1
+vunsaved_camera_config
+R9
 !i10b 1
-!s100 h6IhYCo7SFWABRmn71@Gg3
-IhgO>nee?h3R[Z2Rfg56P81
+!s100 WHAK=7JNjjO6nEQ:B2z<K0
+IlGN4[lZg7f9BW5@hJ>h1b3
 R2
 R0
-R3
-8C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_test_pattern_0.v
-FC:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_test_pattern_0.v
-R9
+R16
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v
+L0 35
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_test_pattern_0.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules|C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_test_pattern_0.v|
+R12
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v|
+!i113 1
+R6
+R7
+R8
+vunsaved_camera_decoder
+R15
+!i10b 1
+!s100 EQlod2zPEg^RnALZlEU>n2
+I]_`h;@]4X6WnhUCO>EL:m3
+R2
+R0
+R16
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_decoder.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_decoder.v
+R13
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_decoder.v|
+!i113 1
+R6
+R7
+R8
+vunsaved_video_clipper_0
+R18
+!i10b 1
+!s100 ;Yjbm`Pn4D2:7VJmE@ghF1
+IY>]XhkldI4ARdN18k?AnE0
+R2
+R0
+R19
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_clipper_0.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_clipper_0.v
+R11
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_clipper_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_clipper_0.v|
+!i113 1
+R6
+R7
+R8
+vunsaved_video_rgb_resampler_0
+R18
+!i10b 1
+!s100 ckFV?lTjT^T87GTLYz_0n0
+I3QdLJW]X6EBN5CLC^37PA0
+R2
+R0
+R19
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v
+R13
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v|
+!i113 1
+R6
+R7
+R8
+vunsaved_video_scaler_0
+R21
+!i10b 1
+!s100 ?HkgEi2E15GK@>9<MVJl@0
+IC2F=U_5RaHl5FFaC=Y34E2
+R2
+R0
+R3
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_scaler_0.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_scaler_0.v
+R13
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_scaler_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_scaler_0.v|
 !i113 1
 R6
 R7
 R8
 vunsaved_video_vga_controller_0
-R1
+R21
 !i10b 1
 !s100 Cl1lIAcaPA[VnM:@6=Xib2
-I8H:aGj8ee9V42fPo3FENZ3
+I?iLKIILTT8b=?5d];9iCE2
 R2
 R0
 R3
-8C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v
-FC:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v
-R9
+8C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v
+FC:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v
+R13
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules|C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v|
+R14
+!s107 C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules|C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v|
 !i113 1
 R6
 R7

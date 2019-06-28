@@ -31,7 +31,6 @@ Info: unsaved.video_clipper_0: Change in Resolution: 1296 x 972 -> 1280 x 960
 Info: unsaved.video_rgb_resampler_0: RGB Resampling: 8 (bits) x 3 (planes) -> 10 (bits) x 3 (planes)
 Info: unsaved.video_scaler_0: Change in Resolution: 1280 x 960 -> 640 x 480
 Info: unsaved.video_vga_controller_0: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
-Warning: unsaved.video_test_pattern_0.avalon_generator_source: video_test_pattern_0.avalon_generator_source must be connected to an Avalon-ST sink
 Warning: unsaved.camera_config: camera_config.avalon_av_config_slave must be connected to an Avalon-MM master
 Warning: unsaved.video_rgb_resampler_0: video_rgb_resampler_0.avalon_rgb_slave must be connected to an Avalon-MM master
 Info: unsaved: Generating unsaved "unsaved" for SIM_VERILOG
@@ -47,12 +46,10 @@ Info: video_rgb_resampler_0: Starting Generation of Video RGB Resampler
 Info: video_rgb_resampler_0: "unsaved" instantiated altera_up_avalon_video_rgb_resampler "video_rgb_resampler_0"
 Info: video_scaler_0: Starting Generation of Video Scaler
 Info: video_scaler_0: "unsaved" instantiated altera_up_avalon_video_scaler "video_scaler_0"
-Info: video_test_pattern_0: Starting Generation of Test Pattern Generator
-Info: video_test_pattern_0: "unsaved" instantiated altera_up_avalon_video_test_pattern "video_test_pattern_0"
 Info: video_vga_controller_0: Starting Generation of VGA Controller
 Info: video_vga_controller_0: "unsaved" instantiated altera_up_avalon_video_vga_controller "video_vga_controller_0"
 Info: rst_controller: "unsaved" instantiated altera_reset_controller "rst_controller"
-Info: unsaved: Done "unsaved" with 10 modules, 37 files
+Info: unsaved: Done "unsaved" with 9 modules, 36 files
 Info: qsys-generate succeeded.
 Info: Finished: Create simulation model
 Info: Starting: Create Modelsim Project.
@@ -69,7 +66,7 @@ Info: Generating the following file(s) for NCSIM simulator in C:/Users/gui_m/Doc
 Info: 	cadence/cds.lib
 Info: 	cadence/hdl.var
 Info: 	cadence/ncsim_setup.sh
-Info: 	9 .cds.lib files in cadence/cds_libs/ directory
+Info: 	8 .cds.lib files in cadence/cds_libs/ directory
 Info: Generating the following file(s) for RIVIERA simulator in C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ directory:
 Info: 	aldec/rivierapro_setup.tcl
 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/.
@@ -107,7 +104,6 @@ Info: unsaved.video_clipper_0: Change in Resolution: 1296 x 972 -> 1280 x 960
 Info: unsaved.video_rgb_resampler_0: RGB Resampling: 8 (bits) x 3 (planes) -> 10 (bits) x 3 (planes)
 Info: unsaved.video_scaler_0: Change in Resolution: 1280 x 960 -> 640 x 480
 Info: unsaved.video_vga_controller_0: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
-Warning: unsaved.video_test_pattern_0.avalon_generator_source: video_test_pattern_0.avalon_generator_source must be connected to an Avalon-ST sink
 Warning: unsaved.camera_config: camera_config.avalon_av_config_slave must be connected to an Avalon-MM master
 Warning: unsaved.video_rgb_resampler_0: video_rgb_resampler_0.avalon_rgb_slave must be connected to an Avalon-MM master
 Info: qsys-generate succeeded.
@@ -145,7 +141,6 @@ Info: unsaved.video_clipper_0: Change in Resolution: 1296 x 972 -> 1280 x 960
 Info: unsaved.video_rgb_resampler_0: RGB Resampling: 8 (bits) x 3 (planes) -> 10 (bits) x 3 (planes)
 Info: unsaved.video_scaler_0: Change in Resolution: 1280 x 960 -> 640 x 480
 Info: unsaved.video_vga_controller_0: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
-Warning: unsaved.video_test_pattern_0.avalon_generator_source: video_test_pattern_0.avalon_generator_source must be connected to an Avalon-ST sink
 Warning: unsaved.camera_config: camera_config.avalon_av_config_slave must be connected to an Avalon-MM master
 Warning: unsaved.video_rgb_resampler_0: video_rgb_resampler_0.avalon_rgb_slave must be connected to an Avalon-MM master
 Info: unsaved: Generating unsaved "unsaved" for QUARTUS_SYNTH
@@ -161,11 +156,9 @@ Info: video_rgb_resampler_0: Starting Generation of Video RGB Resampler
 Info: video_rgb_resampler_0: "unsaved" instantiated altera_up_avalon_video_rgb_resampler "video_rgb_resampler_0"
 Info: video_scaler_0: Starting Generation of Video Scaler
 Info: video_scaler_0: "unsaved" instantiated altera_up_avalon_video_scaler "video_scaler_0"
-Info: video_test_pattern_0: Starting Generation of Test Pattern Generator
-Info: video_test_pattern_0: "unsaved" instantiated altera_up_avalon_video_test_pattern "video_test_pattern_0"
 Info: video_vga_controller_0: Starting Generation of VGA Controller
 Info: video_vga_controller_0: "unsaved" instantiated altera_up_avalon_video_vga_controller "video_vga_controller_0"
 Info: rst_controller: "unsaved" instantiated altera_reset_controller "rst_controller"
-Info: unsaved: Done "unsaved" with 10 modules, 37 files
+Info: unsaved: Done "unsaved" with 9 modules, 36 files
 Info: qsys-generate succeeded.
 Info: Finished: Create HDL design files for synthesis

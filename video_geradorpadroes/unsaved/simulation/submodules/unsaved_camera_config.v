@@ -89,9 +89,9 @@ output					I2C_SCLK;
  *                           Constant Declarations                           *
  *****************************************************************************/
 
-localparam DW					= 26;	// Serial protocol's datawidth
+localparam DW					= 35;	// Serial protocol's datawidth
 
-localparam CFG_TYPE			= 8'h03;
+localparam CFG_TYPE			= 8'h11;
 
 localparam READ_MASK			= {8'h00, 1'b1, 8'hFF, 1'b0, 8'h00, 1'b1};
 localparam WRITE_MASK		= {8'h00, 1'b1, 8'h00, 1'b1, 8'h00, 1'b1};
@@ -99,23 +99,17 @@ localparam WRITE_MASK		= {8'h00, 1'b1, 8'h00, 1'b1, 8'h00, 1'b1};
 localparam RESTART_COUNTER	= 'h9;
 
 // Auto init parameters
-localparam AIRS				= 57;	// Auto Init ROM's size
-localparam AIAW				= 5;	// Auto Init ROM's address width 
+localparam AIRS				= 25;	// Auto Init ROM's size
+localparam AIAW				= 4;	// Auto Init ROM's address width 
 
-localparam AUD_LINE_IN_LC	= 9'h01A;
-localparam AUD_LINE_IN_RC	= 9'h01A;
-localparam AUD_LINE_OUT_LC	= 9'h07B;
-localparam AUD_LINE_OUT_RC	= 9'h07B;
-localparam AUD_ADC_PATH		= 9'd133;
-localparam AUD_DAC_PATH		= 9'h006;
-localparam AUD_POWER			= 9'h000;
-localparam AUD_DATA_FORMAT	= 9'd73;
-localparam AUD_SAMPLE_CTRL	= 9'd0;
-localparam AUD_SET_ACTIVE	= 9'h001;
+localparam D5M_COLUMN_SIZE	= 16'd2591;
+localparam D5M_ROW_SIZE		= 16'd1943;
+localparam D5M_COLUMN_BIN	= 16'h0000;
+localparam D5M_ROW_BIN		= 16'h0000;
 
 // Serial Bus Controller parameters
 //parameter SBDW				= 26;	// Serial bus's datawidth
-localparam SBCW				= 4;	// Serial bus counter's width
+localparam SBCW				= 5;	// Serial bus counter's width
 localparam SCCW				= 11;	// Slow clock's counter's width
 
 // States for finite state machine
@@ -161,7 +155,6 @@ reg			[31: 0]	data_reg;
 reg						start_external_transfer;
 reg						external_read_transfer;
 reg			[ 7: 0]	address_for_transfer;
-reg			[ 1: 0]	device_for_transfer;
 
 // State Machine Registers
 reg			[ 2: 0]	ns_serial_transfer;
@@ -192,12 +185,7 @@ begin
 			else if (write & (address == 2'h3))
 				ns_serial_transfer = STATE_1_PRE_WRITE;
 			else if (read & (address == 2'h3))
-			begin
-				if (control_reg[17:16] == 2'h0)
-					ns_serial_transfer = STATE_6_POST_READ;
-				else
-					ns_serial_transfer = STATE_4_PRE_READ;
-			end
+				ns_serial_transfer = STATE_4_PRE_READ;
 			else
 				ns_serial_transfer = STATE_0_IDLE;
 		end
@@ -260,12 +248,10 @@ begin
 		end
 		else if (address == 2'h2)
 			readdata	<= address_reg;
-		else if (control_reg[17:16] == 2'h0)
-			readdata	<= {23'h000000, 
-							data_from_controller[10], 
-							data_from_controller[ 8: 1]};
 		else
-			readdata	<= {24'h000000, data_from_controller[ 8: 1]};
+			readdata	<= {16'h0000, 
+							data_from_controller[17:10], 
+							data_from_controller[ 8: 1]};
 	end
 end
 
@@ -284,8 +270,6 @@ begin
 		// Write to control register
 		if ((address == 2'h0) & byteenable[0])
 			control_reg[ 2: 1]	<= writedata[ 2: 1];
-		if ((address == 2'h0) & byteenable[2])
-			control_reg[17:16]	<= writedata[17:16];
 
 		// Write to address register
 		if ((address == 2'h2) & byteenable[0])
@@ -310,7 +294,6 @@ begin
 		start_external_transfer <= 1'b0;
 		external_read_transfer	<= 1'b0;
 		address_for_transfer		<= 8'h00;
-		device_for_transfer		<= 2'h0;
 	end
 	else if (transfer_complete)
 	begin
@@ -323,14 +306,12 @@ begin
 		start_external_transfer <= 1'b1;
 		external_read_transfer	<= 1'b0;
 		address_for_transfer		<= address_reg[7:0];
-		device_for_transfer		<= control_reg[17:16];
 	end
 	else if (s_serial_transfer == STATE_4_PRE_READ)
 	begin
 		start_external_transfer <= 1'b1;
 		external_read_transfer	<= 1'b1;
 		address_for_transfer		<= address_reg[7:0];
-		device_for_transfer		<= control_reg[17:16];
 	end
 end
 
@@ -355,23 +336,12 @@ assign transfer_mask = WRITE_MASK;
 assign data_to_controller = 
 		(~auto_init_complete) ?
 			auto_init_data :
-			(device_for_transfer == 2'h0) ?
-				{8'h34, 1'b0, 
-				 address_for_transfer[6:0], data_reg[8], 1'b0, 
-				 data_reg[7:0], 1'b0} :
-				(device_for_transfer == 2'h1) ?
-					{8'h40, 1'b0, 
-					 address_for_transfer[7:0], external_read_transfer, 
-					 data_reg[7:0], 1'b0} :
-					{8'h42, 1'b0, 
-					 address_for_transfer[7:0], external_read_transfer, 
-					 data_reg[7:0], 1'b0};
+			{8'hBA, 1'b0, 
+			 address_for_transfer[7:0], external_read_transfer, 
+			 data_reg[15:8], 1'b0, 
+			 data_reg[ 7:0], 1'b0};
 
-assign data_to_controller_on_restart = 
-			(device_for_transfer == 2'h1) ?
-				{8'h41, 1'b0, 8'h00, 1'b0, 8'h00, ack} :
-				{8'h43, 1'b0, 8'h00, 1'b0, 8'h00, ack};
-//				{8'h43, 1'b0, {2{8'h00, 1'b0}}};
+assign data_to_controller_on_restart = {8'hBB, 1'b0, {3{8'h00, 1'b0}}};
 			
 
 assign start_transfer = (auto_init_complete) ? 
@@ -379,7 +349,8 @@ assign start_transfer = (auto_init_complete) ?
 							auto_init_transfer_en;
 
 //  Signals from the serial controller
-assign ack =	data_from_controller[18] | 
+assign ack =   data_from_controller[27] | 
+					data_from_controller[18] | 
 					data_from_controller[ 9] |
 					data_from_controller[ 0];
 
@@ -415,10 +386,11 @@ defparam
 	AV_Config_Auto_Init.AW			= AIAW,
 	AV_Config_Auto_Init.DW			= DW;
 
-altera_up_av_config_auto_init_ob_de10_standard Auto_Init_OB_Devices_ROM (
+altera_up_av_config_auto_init_d5m Auto_Init_D5M_ROM (
 	// Inputs
 	.rom_address			(rom_address),
 
+	.exposure				(16'h07C0),
 
 	// Bidirectionals
 
@@ -426,17 +398,10 @@ altera_up_av_config_auto_init_ob_de10_standard Auto_Init_OB_Devices_ROM (
 	.rom_data				(rom_data)
 );
 defparam
-	Auto_Init_OB_Devices_ROM.AUD_LINE_IN_LC		= AUD_LINE_IN_LC,
-	Auto_Init_OB_Devices_ROM.AUD_LINE_IN_RC		= AUD_LINE_IN_RC,
-	Auto_Init_OB_Devices_ROM.AUD_LINE_OUT_LC		= AUD_LINE_OUT_LC,
-	Auto_Init_OB_Devices_ROM.AUD_LINE_OUT_RC		= AUD_LINE_OUT_RC,
-	Auto_Init_OB_Devices_ROM.AUD_ADC_PATH			= AUD_ADC_PATH,
-	Auto_Init_OB_Devices_ROM.AUD_DAC_PATH			= AUD_DAC_PATH,
-	Auto_Init_OB_Devices_ROM.AUD_POWER				= AUD_POWER,
-	Auto_Init_OB_Devices_ROM.AUD_DATA_FORMAT		= AUD_DATA_FORMAT,
-	Auto_Init_OB_Devices_ROM.AUD_SAMPLE_CTRL		= AUD_SAMPLE_CTRL,
-	Auto_Init_OB_Devices_ROM.AUD_SET_ACTIVE		= AUD_SET_ACTIVE;
-
+	Auto_Init_D5M_ROM.D5M_COLUMN_SIZE	= D5M_COLUMN_SIZE,
+	Auto_Init_D5M_ROM.D5M_ROW_SIZE		= D5M_ROW_SIZE,
+	Auto_Init_D5M_ROM.D5M_COLUMN_BIN		= D5M_COLUMN_BIN,
+	Auto_Init_D5M_ROM.D5M_ROW_BIN			= D5M_ROW_BIN;
 
 altera_up_av_config_serial_bus_controller Serial_Bus_Controller (
 	// Inputs

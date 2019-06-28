@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 18.1 625 win32 2019.06.14.15:38:22
+# ACDS 18.1 625 win32 2019.06.28.14:53:13
 
 # ----------------------------------------
 # vcs - auto-generated simulation script
@@ -94,7 +94,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 625 win32 2019.06.14.15:38:22
+# ACDS 18.1 625 win32 2019.06.28.14:53:13
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="unsaved"
@@ -143,7 +143,6 @@ vcs -lca -timescale=1ps/1ps -sverilog +verilog2001ext+.v -ntb_opts dtm $ELAB_OPT
   $QSYS_SIMDIR/submodules/altera_reset_synchronizer.v \
   $QSYS_SIMDIR/submodules/altera_up_avalon_video_vga_timing.v \
   $QSYS_SIMDIR/submodules/unsaved_video_vga_controller_0.v \
-  $QSYS_SIMDIR/submodules/unsaved_video_test_pattern_0.v \
   $QSYS_SIMDIR/submodules/altera_up_video_scaler_shrink.v \
   $QSYS_SIMDIR/submodules/altera_up_video_scaler_multiply_width.v \
   $QSYS_SIMDIR/submodules/altera_up_video_scaler_multiply_height.v \

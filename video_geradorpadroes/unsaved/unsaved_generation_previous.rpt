@@ -2,10 +2,20 @@ Info: Starting: Create simulation model
 Info: qsys-generate C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved\simulation --family="Cyclone IV GX" --part=EP4CGX150DF31C7
 Progress: Loading video_geradorpadroes/unsaved.qsys
 Progress: Reading input file
+Progress: Adding bayer_resampler [altera_up_avalon_video_bayer_resampler 18.0]
+Progress: Parameterizing module bayer_resampler
+Progress: Adding camera_config [altera_up_avalon_audio_and_video_config 18.0]
+Progress: Parameterizing module camera_config
+Progress: Adding camera_decoder [altera_up_avalon_video_decoder 18.0]
+Progress: Parameterizing module camera_decoder
 Progress: Adding clk_0 [clock_source 18.1]
 Progress: Parameterizing module clk_0
+Progress: Adding video_clipper_0 [altera_up_avalon_video_clipper 18.0]
+Progress: Parameterizing module video_clipper_0
 Progress: Adding video_rgb_resampler_0 [altera_up_avalon_video_rgb_resampler 18.0]
 Progress: Parameterizing module video_rgb_resampler_0
+Progress: Adding video_scaler_0 [altera_up_avalon_video_scaler 18.0]
+Progress: Parameterizing module video_scaler_0
 Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 18.0]
 Progress: Parameterizing module video_test_pattern_0
 Progress: Adding video_vga_controller_0 [altera_up_avalon_video_vga_controller 18.1]
@@ -15,18 +25,31 @@ Progress: Building connections
 Progress: Parameterizing connections
 Progress: Validating
 Progress: Done reading input file
+Info: unsaved.bayer_resampler: Change in Resolution: 2592 x 1944 -> 1296 x 972
+Info: unsaved.camera_decoder: Video In Stream: Format: 2592 x 1944 (default) with Colour: 8 (bits) x 1 (planes) (RGB Bayer Pattern)
+Info: unsaved.video_clipper_0: Change in Resolution: 1296 x 972 -> 1280 x 960
 Info: unsaved.video_rgb_resampler_0: RGB Resampling: 8 (bits) x 3 (planes) -> 10 (bits) x 3 (planes)
+Info: unsaved.video_scaler_0: Change in Resolution: 1280 x 960 -> 640 x 480
 Info: unsaved.video_vga_controller_0: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
+Warning: unsaved.camera_config: camera_config.avalon_av_config_slave must be connected to an Avalon-MM master
 Warning: unsaved.video_rgb_resampler_0: video_rgb_resampler_0.avalon_rgb_slave must be connected to an Avalon-MM master
 Info: unsaved: Generating unsaved "unsaved" for SIM_VERILOG
+Info: bayer_resampler: Starting Generation of Video Bayer Pattern Resampler
+Info: bayer_resampler: "unsaved" instantiated altera_up_avalon_video_bayer_resampler "bayer_resampler"
+Info: camera_config: Starting Generation of Audio and Video Config
+Info: camera_config: "unsaved" instantiated altera_up_avalon_audio_and_video_config "camera_config"
+Info: camera_decoder: Starting Generation of Video In Decoder
+Info: camera_decoder: "unsaved" instantiated altera_up_avalon_video_decoder "camera_decoder"
+Info: video_clipper_0: Starting generation of the video clipper
+Info: video_clipper_0: "unsaved" instantiated altera_up_avalon_video_clipper "video_clipper_0"
 Info: video_rgb_resampler_0: Starting Generation of Video RGB Resampler
 Info: video_rgb_resampler_0: "unsaved" instantiated altera_up_avalon_video_rgb_resampler "video_rgb_resampler_0"
-Info: video_test_pattern_0: Starting Generation of Test Pattern Generator
-Info: video_test_pattern_0: "unsaved" instantiated altera_up_avalon_video_test_pattern "video_test_pattern_0"
+Info: video_scaler_0: Starting Generation of Video Scaler
+Info: video_scaler_0: "unsaved" instantiated altera_up_avalon_video_scaler "video_scaler_0"
 Info: video_vga_controller_0: Starting Generation of VGA Controller
 Info: video_vga_controller_0: "unsaved" instantiated altera_up_avalon_video_vga_controller "video_vga_controller_0"
 Info: rst_controller: "unsaved" instantiated altera_reset_controller "rst_controller"
-Info: unsaved: Done "unsaved" with 5 modules, 8 files
+Info: unsaved: Done "unsaved" with 9 modules, 36 files
 Info: qsys-generate succeeded.
 Info: Finished: Create simulation model
 Info: Starting: Create Modelsim Project.
@@ -43,7 +66,7 @@ Info: Generating the following file(s) for NCSIM simulator in C:/Users/gui_m/Doc
 Info: 	cadence/cds.lib
 Info: 	cadence/hdl.var
 Info: 	cadence/ncsim_setup.sh
-Info: 	4 .cds.lib files in cadence/cds_libs/ directory
+Info: 	8 .cds.lib files in cadence/cds_libs/ directory
 Info: Generating the following file(s) for RIVIERA simulator in C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ directory:
 Info: 	aldec/rivierapro_setup.tcl
 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/.
@@ -53,10 +76,20 @@ Info: Starting: Create block symbol file (.bsf)
 Info: qsys-generate C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved.qsys --block-symbol-file --output-directory=C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved --family="Cyclone IV GX" --part=EP4CGX150DF31C7
 Progress: Loading video_geradorpadroes/unsaved.qsys
 Progress: Reading input file
+Progress: Adding bayer_resampler [altera_up_avalon_video_bayer_resampler 18.0]
+Progress: Parameterizing module bayer_resampler
+Progress: Adding camera_config [altera_up_avalon_audio_and_video_config 18.0]
+Progress: Parameterizing module camera_config
+Progress: Adding camera_decoder [altera_up_avalon_video_decoder 18.0]
+Progress: Parameterizing module camera_decoder
 Progress: Adding clk_0 [clock_source 18.1]
 Progress: Parameterizing module clk_0
+Progress: Adding video_clipper_0 [altera_up_avalon_video_clipper 18.0]
+Progress: Parameterizing module video_clipper_0
 Progress: Adding video_rgb_resampler_0 [altera_up_avalon_video_rgb_resampler 18.0]
 Progress: Parameterizing module video_rgb_resampler_0
+Progress: Adding video_scaler_0 [altera_up_avalon_video_scaler 18.0]
+Progress: Parameterizing module video_scaler_0
 Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 18.0]
 Progress: Parameterizing module video_test_pattern_0
 Progress: Adding video_vga_controller_0 [altera_up_avalon_video_vga_controller 18.1]
@@ -65,8 +98,13 @@ Progress: Building connections
 Progress: Parameterizing connections
 Progress: Validating
 Progress: Done reading input file
+Info: unsaved.bayer_resampler: Change in Resolution: 2592 x 1944 -> 1296 x 972
+Info: unsaved.camera_decoder: Video In Stream: Format: 2592 x 1944 (default) with Colour: 8 (bits) x 1 (planes) (RGB Bayer Pattern)
+Info: unsaved.video_clipper_0: Change in Resolution: 1296 x 972 -> 1280 x 960
 Info: unsaved.video_rgb_resampler_0: RGB Resampling: 8 (bits) x 3 (planes) -> 10 (bits) x 3 (planes)
+Info: unsaved.video_scaler_0: Change in Resolution: 1280 x 960 -> 640 x 480
 Info: unsaved.video_vga_controller_0: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
+Warning: unsaved.camera_config: camera_config.avalon_av_config_slave must be connected to an Avalon-MM master
 Warning: unsaved.video_rgb_resampler_0: video_rgb_resampler_0.avalon_rgb_slave must be connected to an Avalon-MM master
 Info: qsys-generate succeeded.
 Info: Finished: Create block symbol file (.bsf)
@@ -75,10 +113,20 @@ Info: Starting: Create HDL design files for synthesis
 Info: qsys-generate C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved.qsys --synthesis=VERILOG --output-directory=C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved\synthesis --family="Cyclone IV GX" --part=EP4CGX150DF31C7
 Progress: Loading video_geradorpadroes/unsaved.qsys
 Progress: Reading input file
+Progress: Adding bayer_resampler [altera_up_avalon_video_bayer_resampler 18.0]
+Progress: Parameterizing module bayer_resampler
+Progress: Adding camera_config [altera_up_avalon_audio_and_video_config 18.0]
+Progress: Parameterizing module camera_config
+Progress: Adding camera_decoder [altera_up_avalon_video_decoder 18.0]
+Progress: Parameterizing module camera_decoder
 Progress: Adding clk_0 [clock_source 18.1]
 Progress: Parameterizing module clk_0
+Progress: Adding video_clipper_0 [altera_up_avalon_video_clipper 18.0]
+Progress: Parameterizing module video_clipper_0
 Progress: Adding video_rgb_resampler_0 [altera_up_avalon_video_rgb_resampler 18.0]
 Progress: Parameterizing module video_rgb_resampler_0
+Progress: Adding video_scaler_0 [altera_up_avalon_video_scaler 18.0]
+Progress: Parameterizing module video_scaler_0
 Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 18.0]
 Progress: Parameterizing module video_test_pattern_0
 Progress: Adding video_vga_controller_0 [altera_up_avalon_video_vga_controller 18.1]
@@ -87,17 +135,30 @@ Progress: Building connections
 Progress: Parameterizing connections
 Progress: Validating
 Progress: Done reading input file
+Info: unsaved.bayer_resampler: Change in Resolution: 2592 x 1944 -> 1296 x 972
+Info: unsaved.camera_decoder: Video In Stream: Format: 2592 x 1944 (default) with Colour: 8 (bits) x 1 (planes) (RGB Bayer Pattern)
+Info: unsaved.video_clipper_0: Change in Resolution: 1296 x 972 -> 1280 x 960
 Info: unsaved.video_rgb_resampler_0: RGB Resampling: 8 (bits) x 3 (planes) -> 10 (bits) x 3 (planes)
+Info: unsaved.video_scaler_0: Change in Resolution: 1280 x 960 -> 640 x 480
 Info: unsaved.video_vga_controller_0: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
+Warning: unsaved.camera_config: camera_config.avalon_av_config_slave must be connected to an Avalon-MM master
 Warning: unsaved.video_rgb_resampler_0: video_rgb_resampler_0.avalon_rgb_slave must be connected to an Avalon-MM master
 Info: unsaved: Generating unsaved "unsaved" for QUARTUS_SYNTH
+Info: bayer_resampler: Starting Generation of Video Bayer Pattern Resampler
+Info: bayer_resampler: "unsaved" instantiated altera_up_avalon_video_bayer_resampler "bayer_resampler"
+Info: camera_config: Starting Generation of Audio and Video Config
+Info: camera_config: "unsaved" instantiated altera_up_avalon_audio_and_video_config "camera_config"
+Info: camera_decoder: Starting Generation of Video In Decoder
+Info: camera_decoder: "unsaved" instantiated altera_up_avalon_video_decoder "camera_decoder"
+Info: video_clipper_0: Starting generation of the video clipper
+Info: video_clipper_0: "unsaved" instantiated altera_up_avalon_video_clipper "video_clipper_0"
 Info: video_rgb_resampler_0: Starting Generation of Video RGB Resampler
 Info: video_rgb_resampler_0: "unsaved" instantiated altera_up_avalon_video_rgb_resampler "video_rgb_resampler_0"
-Info: video_test_pattern_0: Starting Generation of Test Pattern Generator
-Info: video_test_pattern_0: "unsaved" instantiated altera_up_avalon_video_test_pattern "video_test_pattern_0"
+Info: video_scaler_0: Starting Generation of Video Scaler
+Info: video_scaler_0: "unsaved" instantiated altera_up_avalon_video_scaler "video_scaler_0"
 Info: video_vga_controller_0: Starting Generation of VGA Controller
 Info: video_vga_controller_0: "unsaved" instantiated altera_up_avalon_video_vga_controller "video_vga_controller_0"
 Info: rst_controller: "unsaved" instantiated altera_reset_controller "rst_controller"
-Info: unsaved: Done "unsaved" with 5 modules, 8 files
+Info: unsaved: Done "unsaved" with 9 modules, 36 files
 Info: qsys-generate succeeded.
 Info: Finished: Create HDL design files for synthesis

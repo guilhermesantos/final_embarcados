@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 18.1 625 win32 2019.06.14.15:38:22
+# ACDS 18.1 625 win32 2019.06.28.14:53:14
 # ----------------------------------------
 # Auto-generated simulation script rivierapro_setup.tcl
 # ----------------------------------------
@@ -180,8 +180,6 @@ ensure_lib                        ./libraries/rst_controller
 vmap       rst_controller         ./libraries/rst_controller        
 ensure_lib                        ./libraries/video_vga_controller_0
 vmap       video_vga_controller_0 ./libraries/video_vga_controller_0
-ensure_lib                        ./libraries/video_test_pattern_0  
-vmap       video_test_pattern_0   ./libraries/video_test_pattern_0  
 ensure_lib                        ./libraries/video_scaler_0        
 vmap       video_scaler_0         ./libraries/video_scaler_0        
 ensure_lib                        ./libraries/video_rgb_resampler_0 
@@ -217,7 +215,6 @@ alias com {
   eval  vlog -v2k5 $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/submodules/altera_reset_synchronizer.v"                      -work rst_controller        
   eval  vlog -v2k5 $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/submodules/altera_up_avalon_video_vga_timing.v"              -work video_vga_controller_0
   eval  vlog -v2k5 $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/submodules/unsaved_video_vga_controller_0.v"                 -work video_vga_controller_0
-  eval  vlog -v2k5 $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/submodules/unsaved_video_test_pattern_0.v"                   -work video_test_pattern_0  
   eval  vlog -v2k5 $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/submodules/altera_up_video_scaler_shrink.v"                  -work video_scaler_0        
   eval  vlog -v2k5 $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/submodules/altera_up_video_scaler_multiply_width.v"          -work video_scaler_0        
   eval  vlog -v2k5 $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/submodules/altera_up_video_scaler_multiply_height.v"         -work video_scaler_0        
@@ -255,14 +252,14 @@ alias com {
 # Elaborate top level design
 alias elab {
   echo "\[exec\] elab"
-  eval vsim +access +r -t ps $ELAB_OPTIONS -L work -L rst_controller -L video_vga_controller_0 -L video_test_pattern_0 -L video_scaler_0 -L video_rgb_resampler_0 -L video_clipper_0 -L camera_decoder -L camera_config -L bayer_resampler -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver $TOP_LEVEL_NAME
+  eval vsim +access +r -t ps $ELAB_OPTIONS -L work -L rst_controller -L video_vga_controller_0 -L video_scaler_0 -L video_rgb_resampler_0 -L video_clipper_0 -L camera_decoder -L camera_config -L bayer_resampler -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver $TOP_LEVEL_NAME
 }
 
 # ----------------------------------------
 # Elaborate the top level design with -dbg -O2 option
 alias elab_debug {
   echo "\[exec\] elab_debug"
-  eval vsim -dbg -O2 +access +r -t ps $ELAB_OPTIONS -L work -L rst_controller -L video_vga_controller_0 -L video_test_pattern_0 -L video_scaler_0 -L video_rgb_resampler_0 -L video_clipper_0 -L camera_decoder -L camera_config -L bayer_resampler -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver $TOP_LEVEL_NAME
+  eval vsim -dbg -O2 +access +r -t ps $ELAB_OPTIONS -L work -L rst_controller -L video_vga_controller_0 -L video_scaler_0 -L video_rgb_resampler_0 -L video_clipper_0 -L camera_decoder -L camera_config -L bayer_resampler -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver $TOP_LEVEL_NAME
 }
 
 # ----------------------------------------

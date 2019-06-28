@@ -11,7 +11,6 @@ DEFINE cds_assertions         $CDS_ROOT/tools/inca/files/CDS_ASSERTIONS/
 DEFINE work                   ./libraries/work/                         
 DEFINE rst_controller         ./libraries/rst_controller/               
 DEFINE video_vga_controller_0 ./libraries/video_vga_controller_0/       
-DEFINE video_test_pattern_0   ./libraries/video_test_pattern_0/         
 DEFINE video_scaler_0         ./libraries/video_scaler_0/               
 DEFINE video_rgb_resampler_0  ./libraries/video_rgb_resampler_0/        
 DEFINE video_clipper_0        ./libraries/video_clipper_0/              

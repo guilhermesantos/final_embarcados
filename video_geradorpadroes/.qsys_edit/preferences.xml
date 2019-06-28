@@ -3,12 +3,13 @@
  <debug showDebugMenu="0" />
  <systemtable filter="All Interfaces">
   <columns>
-   <connections preferredWidth="159" />
+   <connections preferredWidth="143" />
    <irq preferredWidth="34" />
+   <name preferredWidth="289" />
   </columns>
  </systemtable>
  <library
-   expandedCategories="Project,Library/DSP,Library/DSP/Video and Image Processing,Library,Library/University Program/Audio &amp; Video,Library/University Program/Audio &amp; Video/Video,Library/University Program" />
- <window width="1938" height="1048" x="-9" y="-9" />
+   expandedCategories="Project,Library/University Program/Audio &amp; Video,Library/University Program,Library,Library/University Program/Audio &amp; Video/Video" />
+ <window width="1920" height="1030" x="0" y="0" />
  <generation path="_PROJECT_NAME_" greybox="0" simulation="VERILOG" />
 </preferences>

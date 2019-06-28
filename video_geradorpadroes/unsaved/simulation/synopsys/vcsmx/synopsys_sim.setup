@@ -4,7 +4,6 @@ DEFAULT:                ./libraries/work/
 work:                   ./libraries/work/                  
 rst_controller:         ./libraries/rst_controller/        
 video_vga_controller_0: ./libraries/video_vga_controller_0/
-video_test_pattern_0:   ./libraries/video_test_pattern_0/  
 video_scaler_0:         ./libraries/video_scaler_0/        
 video_rgb_resampler_0:  ./libraries/video_rgb_resampler_0/ 
 video_clipper_0:        ./libraries/video_clipper_0/       

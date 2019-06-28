@@ -28,99 +28,71 @@
 					"strict" : false
 				},
 				{
-					"name" : "B[7]",
+					"name" : "config_SDAT",
 					"strict" : false
 				},
 				{
-					"name" : "B[6]",
+					"name" : "config_SCLK",
 					"strict" : false
 				},
 				{
-					"name" : "B[5]",
+					"name" : "LED_R17",
 					"strict" : false
 				},
 				{
-					"name" : "B[4]",
+					"name" : "LED_R16",
 					"strict" : false
 				},
 				{
-					"name" : "B[3]",
+					"name" : "LED_R15",
 					"strict" : false
 				},
 				{
-					"name" : "B[2]",
+					"name" : "LEDR6",
 					"strict" : false
 				},
 				{
-					"name" : "B[1]",
+					"name" : "LEDR7",
 					"strict" : false
 				},
 				{
-					"name" : "B[0]",
+					"name" : "LEDR8",
 					"strict" : false
 				},
 				{
-					"name" : "G[7]",
+					"name" : "LEDR9",
 					"strict" : false
 				},
 				{
-					"name" : "G[6]",
+					"name" : "LEDR10",
 					"strict" : false
 				},
 				{
-					"name" : "G[5]",
+					"name" : "LINE_VALID",
 					"strict" : false
 				},
 				{
-					"name" : "G[4]",
+					"name" : "FRAME_VALID",
 					"strict" : false
 				},
 				{
-					"name" : "G[3]",
+					"name" : "PIXEL_DATA[0]",
 					"strict" : false
 				},
 				{
-					"name" : "G[2]",
+					"name" : "PIXEL_DATA[1]",
 					"strict" : false
 				},
 				{
-					"name" : "G[1]",
+					"name" : "PIXEL_DATA[2]",
 					"strict" : false
 				},
 				{
-					"name" : "G[0]",
+					"name" : "PIXEL_DATA[3]",
 					"strict" : false
 				},
 				{
-					"name" : "R[7]",
-					"strict" : false
-				},
-				{
-					"name" : "R[6]",
-					"strict" : false
-				},
-				{
-					"name" : "R[5]",
-					"strict" : false
-				},
-				{
-					"name" : "R[4]",
-					"strict" : false
-				},
-				{
-					"name" : "R[3]",
-					"strict" : false
-				},
-				{
-					"name" : "R[2]",
-					"strict" : false
-				},
-				{
-					"name" : "R[1]",
-					"strict" : false
-				},
-				{
-					"name" : "R[0]",
+					"name" : "PIXEL_DATA[4]",
 					"strict" : false
 				},
 				{

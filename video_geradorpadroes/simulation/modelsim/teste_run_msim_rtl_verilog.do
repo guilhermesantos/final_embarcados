@@ -5,14 +5,29 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes {C:/temp/video_geradorpadroes/teste.v}
-vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes {C:/temp/video_geradorpadroes/altplldir.v}
-vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis {C:/temp/video_geradorpadroes/unsaved/synthesis/unsaved.v}
-vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v}
-vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_test_pattern_0.v}
-vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v}
-vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v}
-vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v}
-vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/unsaved/synthesis/submodules {C:/temp/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v}
-vlog -vlog01compat -work work +incdir+C:/temp/video_geradorpadroes/db {C:/temp/video_geradorpadroes/db/altplldir_altpll.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/altplldir.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_bayer_resampler.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altshift_taps.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_d5m.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_slow_clock_generator.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_decoder.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_camera_decoder.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_dual_clock_fifo.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/dcfifo.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_clipper_0.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_drop.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_counters.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_add.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_scaler_0.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_shrink.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v}
+vlog -vlog01compat -work work +incdir+C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/db {C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/db/altplldir_altpll1.v}
 

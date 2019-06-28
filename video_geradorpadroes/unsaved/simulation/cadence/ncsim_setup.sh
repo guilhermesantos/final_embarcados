@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 18.1 625 win32 2019.06.14.15:38:22
+# ACDS 18.1 625 win32 2019.06.28.14:53:13
 
 # ----------------------------------------
 # ncsim - auto-generated simulation script
@@ -106,7 +106,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 625 win32 2019.06.14.15:38:22
+# ACDS 18.1 625 win32 2019.06.28.14:53:13
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="unsaved"
@@ -148,7 +148,6 @@ fi
 mkdir -p ./libraries/work/
 mkdir -p ./libraries/rst_controller/
 mkdir -p ./libraries/video_vga_controller_0/
-mkdir -p ./libraries/video_test_pattern_0/
 mkdir -p ./libraries/video_scaler_0/
 mkdir -p ./libraries/video_rgb_resampler_0/
 mkdir -p ./libraries/video_clipper_0/
@@ -187,7 +186,6 @@ if [ $SKIP_COM -eq 0 ]; then
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/submodules/altera_reset_synchronizer.v"                      -work rst_controller         -cdslib ./cds_libs/rst_controller.cds.lib        
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/submodules/altera_up_avalon_video_vga_timing.v"              -work video_vga_controller_0 -cdslib ./cds_libs/video_vga_controller_0.cds.lib
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/submodules/unsaved_video_vga_controller_0.v"                 -work video_vga_controller_0 -cdslib ./cds_libs/video_vga_controller_0.cds.lib
-  ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/submodules/unsaved_video_test_pattern_0.v"                   -work video_test_pattern_0   -cdslib ./cds_libs/video_test_pattern_0.cds.lib  
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/submodules/altera_up_video_scaler_shrink.v"                  -work video_scaler_0         -cdslib ./cds_libs/video_scaler_0.cds.lib        
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/submodules/altera_up_video_scaler_multiply_width.v"          -work video_scaler_0         -cdslib ./cds_libs/video_scaler_0.cds.lib        
   ncvlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS "$QSYS_SIMDIR/submodules/altera_up_video_scaler_multiply_height.v"         -work video_scaler_0         -cdslib ./cds_libs/video_scaler_0.cds.lib        

@@ -1,5 +1,5 @@
 Flow report for teste
-Fri Jun 14 15:41:05 2019
+Fri Jun 28 15:28:12 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,20 +40,20 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Jun 14 15:41:05 2019       ;
+; Flow Status                        ; Successful - Fri Jun 28 15:28:12 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; teste                                       ;
 ; Top-level Entity Name              ; teste                                       ;
 ; Family                             ; Cyclone IV GX                               ;
 ; Device                             ; EP4CGX150DF31C7                             ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 540 / 149,760 ( < 1 % )                     ;
-;     Total combinational functions  ; 495 / 149,760 ( < 1 % )                     ;
-;     Dedicated logic registers      ; 384 / 149,760 ( < 1 % )                     ;
-; Total registers                    ; 384                                         ;
-; Total pins                         ; 37 / 508 ( 7 % )                            ;
+; Total logic elements               ; 236 / 149,760 ( < 1 % )                     ;
+;     Total combinational functions  ; 231 / 149,760 ( < 1 % )                     ;
+;     Dedicated logic registers      ; 166 / 149,760 ( < 1 % )                     ;
+; Total registers                    ; 166                                         ;
+; Total pins                         ; 62 / 508 ( 12 % )                           ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 22,000 / 6,635,520 ( < 1 % )                ;
+; Total memory bits                  ; 0 / 6,635,520 ( 0 % )                       ;
 ; Embedded Multiplier 9-bit elements ; 0 / 720 ( 0 % )                             ;
 ; Total GXB Receiver Channel PCS     ; 0 / 8 ( 0 % )                               ;
 ; Total GXB Receiver Channel PMA     ; 0 / 8 ( 0 % )                               ;
@@ -68,7 +68,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/14/2019 15:38:54 ;
+; Start date & time ; 06/28/2019 15:25:36 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; teste               ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 167300351292351.156053753409188        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 167300351292351.156174633510772        ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --             ;
@@ -102,12 +102,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:38     ; 1.0                     ; 4875 MB             ; 00:00:32                           ;
-; Fitter               ; 00:00:37     ; 1.0                     ; 5866 MB             ; 00:00:24                           ;
-; Assembler            ; 00:00:27     ; 1.0                     ; 4765 MB             ; 00:00:05                           ;
-; Timing Analyzer      ; 00:00:20     ; 1.0                     ; 4944 MB             ; 00:00:03                           ;
-; EDA Netlist Writer   ; 00:00:19     ; 1.0                     ; 4741 MB             ; 00:00:03                           ;
-; Total                ; 00:02:21     ; --                      ; --                  ; 00:01:07                           ;
+; Analysis & Synthesis ; 00:01:34     ; 1.0                     ; 5133 MB             ; 00:01:39                           ;
+; Fitter               ; 00:00:29     ; 1.1                     ; 5821 MB             ; 00:00:22                           ;
+; Assembler            ; 00:00:07     ; 1.0                     ; 4797 MB             ; 00:00:05                           ;
+; Timing Analyzer      ; 00:00:06     ; 1.0                     ; 4966 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4789 MB             ; 00:00:02                           ;
+; Total                ; 00:02:18     ; --                      ; --                  ; 00:02:11                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

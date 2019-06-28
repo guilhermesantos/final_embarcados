@@ -1,12 +1,12 @@
-# system info unsaved on 2019.06.14.15:38:21
+# system info unsaved on 2019.06.28.14:53:11
 system_info:
 name,value
 DEVICE,EP4CGX150DF31C7
 DEVICE_FAMILY,Cyclone IV GX
-GENERATION_ID,1560537499
+GENERATION_ID,1561744386
 #
 #
-# Files generated for unsaved on 2019.06.14.15:38:21
+# Files generated for unsaved on 2019.06.28.14:53:11
 files:
 filepath,kind,attributes,module,is_top
 simulation/unsaved.v,VERILOG,,unsaved,true
@@ -40,7 +40,6 @@ simulation/submodules/altera_up_video_scaler_shrink.v,VERILOG,,unsaved_video_sca
 simulation/submodules/altera_up_video_scaler_multiply_width.v,VERILOG,,unsaved_video_scaler_0,false
 simulation/submodules/altera_up_video_scaler_multiply_height.v,VERILOG,,unsaved_video_scaler_0,false
 simulation/submodules/unsaved_video_scaler_0.v,VERILOG,,unsaved_video_scaler_0,false
-simulation/submodules/unsaved_video_test_pattern_0.v,VERILOG,,unsaved_video_test_pattern_0,false
 simulation/submodules/altera_up_avalon_video_vga_timing.v,VERILOG,,unsaved_video_vga_controller_0,false
 simulation/submodules/unsaved_video_vga_controller_0.v,VERILOG,,unsaved_video_vga_controller_0,false
 simulation/submodules/altera_reset_controller.v,VERILOG,,altera_reset_controller,false
@@ -56,6 +55,5 @@ unsaved.camera_decoder,unsaved_camera_decoder
 unsaved.video_clipper_0,unsaved_video_clipper_0
 unsaved.video_rgb_resampler_0,unsaved_video_rgb_resampler_0
 unsaved.video_scaler_0,unsaved_video_scaler_0
-unsaved.video_test_pattern_0,unsaved_video_test_pattern_0
 unsaved.video_vga_controller_0,unsaved_video_vga_controller_0
 unsaved.rst_controller,altera_reset_controller

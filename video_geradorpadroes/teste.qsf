@@ -42,9 +42,6 @@ set_global_assignment -name TOP_LEVEL_ENTITY teste
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:45:27  JUNE 14, 2019"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name SEARCH_PATH unsaved/synthesis/submodules
 set_global_assignment -name SEARCH_PATH unsaved/synthesis
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
@@ -85,11 +82,39 @@ set_location_assignment PIN_T23 -to LEDR0
 set_location_assignment PIN_AA26 -to reset
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
-set_global_assignment -name QIP_FILE altplldir.qip
-set_global_assignment -name BDF_FILE teste.bdf
 set_location_assignment PIN_T24 -to LEDR1
 set_location_assignment PIN_V27 -to LEDR2
 set_location_assignment PIN_W25 -to LEDR3
 set_location_assignment PIN_T21 -to LEDR4
 set_location_assignment PIN_T26 -to LEDR5
+set_location_assignment PIN_G16 -to PIXEL_CLK
+set_location_assignment PIN_F23 -to LINE_VALID
+set_location_assignment PIN_G22 -to config_SCLK
+set_location_assignment PIN_F22 -to config_SDAT
+set_location_assignment PIN_G20 -to FRAME_VALID
+set_location_assignment PIN_F17 -to PIXEL_DATA[11]
+set_location_assignment PIN_F18 -to PIXEL_DATA[10]
+set_location_assignment PIN_D19 -to PIXEL_DATA[9]
+set_location_assignment PIN_K21 -to PIXEL_DATA[8]
+set_location_assignment PIN_F19 -to PIXEL_DATA[7]
+set_location_assignment PIN_K22 -to PIXEL_DATA[6]
+set_location_assignment PIN_B21 -to PIXEL_DATA[5]
+set_location_assignment PIN_C21 -to PIXEL_DATA[4]
+set_location_assignment PIN_D22 -to PIXEL_DATA[3]
+set_location_assignment PIN_D21 -to PIXEL_DATA[2]
+set_location_assignment PIN_D23 -to PIXEL_DATA[1]
+set_location_assignment PIN_D24 -to PIXEL_DATA[0]
+set_global_assignment -name BDF_FILE teste.bdf
+set_global_assignment -name QIP_FILE altplldir.qip
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_L25 -to LED_R15
+set_location_assignment PIN_M21 -to LED_R16
+set_location_assignment PIN_M22 -to LED_R17
+set_location_assignment PIN_R25 -to LEDR6
+set_location_assignment PIN_T27 -to LEDR7
+set_location_assignment PIN_P25 -to LEDR8
+set_location_assignment PIN_R24 -to LEDR9
+set_location_assignment PIN_P21 -to LEDR10
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

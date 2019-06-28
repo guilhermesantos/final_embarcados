@@ -48,7 +48,7 @@ module unsaved (
 	wire         video_scaler_0_avalon_scaler_source_ready;             // video_rgb_resampler_0:stream_in_ready -> video_scaler_0:stream_out_ready
 	wire         video_scaler_0_avalon_scaler_source_startofpacket;     // video_scaler_0:stream_out_startofpacket -> video_rgb_resampler_0:stream_in_startofpacket
 	wire         video_scaler_0_avalon_scaler_source_endofpacket;       // video_scaler_0:stream_out_endofpacket -> video_rgb_resampler_0:stream_in_endofpacket
-	wire         rst_controller_reset_out_reset;                        // rst_controller:reset_out -> [bayer_resampler:reset, camera_config:reset, camera_decoder:reset, video_clipper_0:reset, video_rgb_resampler_0:reset, video_scaler_0:reset, video_test_pattern_0:reset, video_vga_controller_0:reset]
+	wire         rst_controller_reset_out_reset;                        // rst_controller:reset_out -> [bayer_resampler:reset, camera_config:reset, camera_decoder:reset, video_clipper_0:reset, video_rgb_resampler_0:reset, video_scaler_0:reset, video_vga_controller_0:reset]
 
 	unsaved_bayer_resampler bayer_resampler (
 		.clk                      (clk_clk),                                            //                 clk.clk
@@ -139,16 +139,6 @@ module unsaved (
 		.stream_out_endofpacket   (video_scaler_0_avalon_scaler_source_endofpacket),     //                     .endofpacket
 		.stream_out_valid         (video_scaler_0_avalon_scaler_source_valid),           //                     .valid
 		.stream_out_data          (video_scaler_0_avalon_scaler_source_data)             //                     .data
-	);
-
-	unsaved_video_test_pattern_0 video_test_pattern_0 (
-		.clk           (clk_clk),                        //                     clk.clk
-		.reset         (rst_controller_reset_out_reset), //                   reset.reset
-		.ready         (),                               // avalon_generator_source.ready
-		.data          (),                               //                        .data
-		.startofpacket (),                               //                        .startofpacket
-		.endofpacket   (),                               //                        .endofpacket
-		.valid         ()                                //                        .valid
 	);
 
 	unsaved_video_vga_controller_0 video_vga_controller_0 (

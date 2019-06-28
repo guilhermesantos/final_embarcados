@@ -10,7 +10,6 @@ set_global_assignment -library "lib_unsaved" -name MISC_FILE [file join $::quart
 set_global_assignment -library "lib_unsaved" -name MISC_FILE [file join $::quartus(sip_path) "submodules/altera_reset_controller.sdc"]
 set_global_assignment -library "lib_unsaved" -name MISC_FILE [file join $::quartus(sip_path) "submodules/altera_up_avalon_video_vga_timing.v"]
 set_global_assignment -library "lib_unsaved" -name MISC_FILE [file join $::quartus(sip_path) "submodules/unsaved_video_vga_controller_0.v"]
-set_global_assignment -library "lib_unsaved" -name MISC_FILE [file join $::quartus(sip_path) "submodules/unsaved_video_test_pattern_0.v"]
 set_global_assignment -library "lib_unsaved" -name MISC_FILE [file join $::quartus(sip_path) "submodules/altera_up_video_scaler_shrink.v"]
 set_global_assignment -library "lib_unsaved" -name MISC_FILE [file join $::quartus(sip_path) "submodules/altera_up_video_scaler_multiply_width.v"]
 set_global_assignment -library "lib_unsaved" -name MISC_FILE [file join $::quartus(sip_path) "submodules/altera_up_video_scaler_multiply_height.v"]

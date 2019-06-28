@@ -21,10 +21,6 @@
    type="VERILOG"
    library="video_vga_controller_0" />
  <file
-   path="simulation/submodules/unsaved_video_test_pattern_0.v"
-   type="VERILOG"
-   library="video_test_pattern_0" />
- <file
    path="simulation/submodules/altera_up_video_scaler_shrink.v"
    type="VERILOG"
    library="video_scaler_0" />
