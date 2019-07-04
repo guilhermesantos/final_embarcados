@@ -8,8 +8,7 @@
    <name preferredWidth="289" />
   </columns>
  </systemtable>
- <library
-   expandedCategories="Project,Library/University Program/Audio &amp; Video,Library/University Program,Library,Library/University Program/Audio &amp; Video/Video" />
+ <library expandedCategories="Project,Library" />
  <window width="1920" height="1030" x="0" y="0" />
  <generation path="_PROJECT_NAME_" greybox="0" simulation="VERILOG" />
 </preferences>

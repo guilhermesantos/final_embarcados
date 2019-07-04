@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2019.06.28.14:53:21"
- outputDirectory="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/">
+ date="2019.07.04.17:48:54"
+ outputDirectory="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -147,13 +147,13 @@
  </perimeter>
  <entity
    path=""
-   parameterizationKey="unsaved:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=EP4CGX150DF31C7,AUTO_DEVICE_FAMILY=Cyclone IV GX,AUTO_DEVICE_SPEEDGRADE=7,AUTO_GENERATION_ID=1561744396,AUTO_UNIQUE_ID=(altera_up_avalon_video_bayer_resampler:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,custom_height_in=1944,custom_width_in=2592,device=5MP Digital Camera (THDB_D5M),height_in=1944,use_custom_format=true,width_in=2592)(altera_up_avalon_audio_and_video_config:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,audio_in=Microphone to ADC,bit_length=24,board=DE2i-150,bosr=250fs/256fs,d5m_resolution=2592 x 1944,dac_enable=false,data_format=Left Justified,device=5 Megapixel Camera (TRDB_D5M),eai=true,exposure=false,line_in_bypass=false,mic_attenuation=-6dB,mic_bypass=false,sampling_rate=48 kHz,sr_register=0,video_format=NTSC)(altera_up_avalon_video_decoder:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,video_source=5MP Digital Camera (THDB_D5M))(clock_source:18.1:clockFrequency=25000000,clockFrequencyKnown=true,inputClockFrequency=0,resetSynchronousEdges=NONE)(altera_up_avalon_video_clipper:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,add_bottom=0,add_left=0,add_right=0,add_top=0,add_value_plane_1=0,add_value_plane_2=0,add_value_plane_3=0,add_value_plane_4=0,color_bits=8,color_planes=3,drop_bottom=6,drop_left=8,drop_right=8,drop_top=6,height_in=972,width_in=1296)(altera_up_avalon_video_rgb_resampler:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,alpha=1023,input_bits=8,input_planes=3,input_type=24-bit RGB,output_bits=10,output_planes=3,output_type=30-bit RGB)(altera_up_avalon_video_scaler:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,channel_size=0,color_bits=8,color_planes=3,height_in=960,height_out=480,height_scaling=0.5,include_channel=false,width_in=1280,width_out=640,width_scaling=0.5)(altera_up_avalon_video_vga_controller:18.1:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,board=DE2i-150,device=VGA Connector,resolution=VGA 640x480,underflow_flag=false)(avalon_streaming:18.1:)(avalon_streaming:18.1:)(avalon_streaming:18.1:)(avalon_streaming:18.1:)(avalon_streaming:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)"
+   parameterizationKey="unsaved:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=EP4CGX150DF31C7,AUTO_DEVICE_FAMILY=Cyclone IV GX,AUTO_DEVICE_SPEEDGRADE=7,AUTO_GENERATION_ID=1562273333,AUTO_UNIQUE_ID=(altera_up_avalon_video_bayer_resampler:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,custom_height_in=1944,custom_width_in=2592,device=5MP Digital Camera (THDB_D5M),height_in=1944,use_custom_format=true,width_in=2592)(altera_up_avalon_audio_and_video_config:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,audio_in=Microphone to ADC,bit_length=24,board=DE2i-150,bosr=250fs/256fs,d5m_resolution=2592 x 1944,dac_enable=false,data_format=Left Justified,device=5 Megapixel Camera (TRDB_D5M),eai=true,exposure=false,line_in_bypass=false,mic_attenuation=-6dB,mic_bypass=false,sampling_rate=48 kHz,sr_register=0,video_format=NTSC)(altera_up_avalon_video_decoder:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,video_source=5MP Digital Camera (THDB_D5M))(clock_source:18.1:clockFrequency=25000000,clockFrequencyKnown=true,inputClockFrequency=0,resetSynchronousEdges=NONE)(altera_up_avalon_video_clipper:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,add_bottom=0,add_left=0,add_right=0,add_top=0,add_value_plane_1=0,add_value_plane_2=0,add_value_plane_3=0,add_value_plane_4=0,color_bits=8,color_planes=3,drop_bottom=6,drop_left=8,drop_right=8,drop_top=6,height_in=972,width_in=1296)(altera_up_avalon_video_rgb_resampler:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,alpha=1023,input_bits=8,input_planes=3,input_type=24-bit RGB,output_bits=10,output_planes=3,output_type=30-bit RGB)(altera_up_avalon_video_scaler:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,channel_size=0,color_bits=8,color_planes=3,height_in=960,height_out=480,height_scaling=0.5,include_channel=false,width_in=1280,width_out=640,width_scaling=0.5)(altera_up_avalon_video_vga_controller:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,board=DE2i-150,device=VGA Connector,resolution=VGA 640x480,underflow_flag=false)(avalon_streaming:18.1:)(avalon_streaming:18.1:)(avalon_streaming:18.1:)(avalon_streaming:18.1:)(avalon_streaming:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(clock:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)(reset:18.1:)"
    instancePathKey="unsaved"
    kind="unsaved"
    version="1.0"
    name="unsaved">
   <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
-  <parameter name="AUTO_GENERATION_ID" value="1561744396" />
+  <parameter name="AUTO_GENERATION_ID" value="1562273333" />
   <parameter name="AUTO_DEVICE" value="EP4CGX150DF31C7" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
   <parameter name="AUTO_CLK_RESET_DOMAIN" value="-1" />
@@ -162,190 +162,190 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
   <generatedFiles>
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/unsaved.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_bayer_resampler.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_bayer_resampler.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_slow_clock_generator.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_slow_clock_generator.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_dc2.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_dc2.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_d5m.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_d5m.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_lcm.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_lcm.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ltm.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ltm.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de2_115.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de2_115.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de2i_150.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de2i_150.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de10_standard.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de10_standard.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7181.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7181.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_itu_656_decoder.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_itu_656_decoder.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_decoder_add_endofpacket.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_decoder_add_endofpacket.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_camera_decoder.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_camera_decoder.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_dual_clock_fifo.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_dual_clock_fifo.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_decoder.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_decoder.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_add.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_add.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_drop.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_drop.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_counters.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_counters.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_clipper_0.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_clipper_0.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_shrink.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_shrink.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_multiply_width.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_multiply_width.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_multiply_height.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_multiply_height.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_scaler_0.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_scaler_0.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.sdc"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.sdc"
        type="SDC"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved.qsys" />
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved.qsys" />
   </sourceFiles>
   <childSourceFiles>
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_bayer_resampler/altera_up_avalon_video_bayer_resampler_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_bayer_resampler/altera_up_avalon_video_bayer_resampler_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/altera_up_avalon_audio_and_video_config_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/altera_up_avalon_audio_and_video_config_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_serial_bus_controller.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_serial_bus_controller.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_slow_clock_generator.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_slow_clock_generator.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_dc2.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_dc2.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_d5m.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_d5m.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_lcm.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_lcm.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ltm.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ltm.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de1_soc.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de1_soc.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2_115.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2_115.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2i_150.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2i_150.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de10_standard.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de10_standard.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_audio.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_audio.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7180.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7180.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7181.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7181.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/altera_up_avalon_video_decoder_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/altera_up_avalon_video_decoder_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_itu_656_decoder.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_itu_656_decoder.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_decoder_add_endofpacket.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_decoder_add_endofpacket.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_camera_decoder.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_camera_decoder.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_dual_clock_fifo.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_dual_clock_fifo.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/altera_up_avalon_video_clipper_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/altera_up_avalon_video_clipper_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_add.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_add.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_drop.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_drop.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_counters.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_counters.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_rgb_resampler/altera_up_avalon_video_rgb_resampler_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_rgb_resampler/altera_up_avalon_video_rgb_resampler_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/altera_up_avalon_video_scaler_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/altera_up_avalon_video_scaler_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_shrink.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_shrink.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_multiply_width.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_multiply_width.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_multiply_height.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_multiply_height.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_vga_controller/altera_up_avalon_video_vga_controller_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_vga_controller/altera_up_avalon_video_vga_controller_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_vga_controller/hdl/altera_up_avalon_video_vga_timing.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_vga_controller/hdl/altera_up_avalon_video_vga_timing.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/merlin/altera_reset_controller/altera_reset_controller_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/merlin/altera_reset_controller/altera_reset_controller_hw.tcl" />
   </childSourceFiles>
   <messages>
    <message level="Debug" culprit="unsaved">queue size: 0 starting:unsaved "unsaved"</message>
@@ -415,13 +415,13 @@
   <parameter name="use_custom_format" value="true" />
   <generatedFiles>
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_bayer_resampler.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_bayer_resampler.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_bayer_resampler/altera_up_avalon_video_bayer_resampler_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_bayer_resampler/altera_up_avalon_video_bayer_resampler_hw.tcl" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator instantiator="unsaved" as="bayer_resampler" />
@@ -458,83 +458,83 @@
   <parameter name="board" value="DE2i-150" />
   <generatedFiles>
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_serial_bus_controller.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_slow_clock_generator.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_slow_clock_generator.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_dc2.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_dc2.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_d5m.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_d5m.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_lcm.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_lcm.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ltm.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ltm.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de2_115.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de2_115.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de2i_150.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de2i_150.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de10_standard.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_de10_standard.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7181.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7181.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_config.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/altera_up_avalon_audio_and_video_config_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/altera_up_avalon_audio_and_video_config_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_serial_bus_controller.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_serial_bus_controller.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_slow_clock_generator.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_slow_clock_generator.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_dc2.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_dc2.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_d5m.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_d5m.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_lcm.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_lcm.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ltm.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ltm.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de1_soc.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de1_soc.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2_115.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2_115.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2i_150.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de2i_150.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de10_standard.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_de10_standard.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_audio.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_audio.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7180.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7180.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7181.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/altera_up_avalon_audio_and_video_config/hdl/altera_up_av_config_auto_init_ob_adv7181.v" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator instantiator="unsaved" as="camera_config" />
@@ -556,33 +556,33 @@
   <parameter name="video_source" value="5MP Digital Camera (THDB_D5M)" />
   <generatedFiles>
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_itu_656_decoder.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_itu_656_decoder.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_decoder_add_endofpacket.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_decoder_add_endofpacket.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_camera_decoder.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_camera_decoder.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_dual_clock_fifo.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_dual_clock_fifo.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_decoder.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_camera_decoder.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/altera_up_avalon_video_decoder_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/altera_up_avalon_video_decoder_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_itu_656_decoder.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_itu_656_decoder.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_decoder_add_endofpacket.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_decoder_add_endofpacket.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_camera_decoder.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_camera_decoder.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_dual_clock_fifo.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_decoder/hdl/altera_up_video_dual_clock_fifo.v" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator instantiator="unsaved" as="camera_decoder" />
@@ -619,28 +619,28 @@
   <parameter name="add_value_plane_3" value="0" />
   <generatedFiles>
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_add.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_add.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_drop.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_drop.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_counters.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_clipper_counters.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_clipper_0.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_clipper_0.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/altera_up_avalon_video_clipper_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/altera_up_avalon_video_clipper_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_add.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_add.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_drop.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_drop.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_counters.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_clipper/hdl/altera_up_video_clipper_counters.v" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator instantiator="unsaved" as="video_clipper_0" />
@@ -668,13 +668,13 @@
   <parameter name="input_planes" value="3" />
   <generatedFiles>
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_rgb_resampler_0.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_rgb_resampler/altera_up_avalon_video_rgb_resampler_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_rgb_resampler/altera_up_avalon_video_rgb_resampler_hw.tcl" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator instantiator="unsaved" as="video_rgb_resampler_0" />
@@ -705,28 +705,28 @@
   <parameter name="height_out" value="480" />
   <generatedFiles>
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_shrink.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_shrink.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_multiply_width.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_multiply_width.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_multiply_height.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_video_scaler_multiply_height.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_scaler_0.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_scaler_0.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/altera_up_avalon_video_scaler_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/altera_up_avalon_video_scaler_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_shrink.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_shrink.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_multiply_width.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_multiply_width.v" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_multiply_height.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_scaler/hdl/altera_up_video_scaler_multiply_height.v" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator instantiator="unsaved" as="video_scaler_0" />
@@ -738,10 +738,10 @@
  </entity>
  <entity
    path="submodules/"
-   parameterizationKey="altera_up_avalon_video_vga_controller:18.1:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,board=DE2i-150,device=VGA Connector,resolution=VGA 640x480,underflow_flag=false"
+   parameterizationKey="altera_up_avalon_video_vga_controller:18.0:AUTO_CLK_CLOCK_RATE=25000000,AUTO_DEVICE_FAMILY=Cyclone IV GX,board=DE2i-150,device=VGA Connector,resolution=VGA 640x480,underflow_flag=false"
    instancePathKey="unsaved:.:video_vga_controller_0"
    kind="altera_up_avalon_video_vga_controller"
-   version="18.1"
+   version="18.0"
    name="unsaved_video_vga_controller_0">
   <parameter name="AUTO_CLK_CLOCK_RATE" value="25000000" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV GX" />
@@ -751,18 +751,18 @@
   <parameter name="board" value="DE2i-150" />
   <generatedFiles>
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_up_avalon_video_vga_timing.v"
        type="VERILOG" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/unsaved_video_vga_controller_0.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_vga_controller/altera_up_avalon_video_vga_controller_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_vga_controller/altera_up_avalon_video_vga_controller_hw.tcl" />
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_vga_controller/hdl/altera_up_avalon_video_vga_timing.v" />
+       path="/opt/altera/18.1/ip/altera/university_program/audio_video/video/altera_up_avalon_video_vga_controller/hdl/altera_up_avalon_video_vga_timing.v" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator instantiator="unsaved" as="video_vga_controller_0" />
@@ -781,22 +781,22 @@
    name="altera_reset_controller">
   <generatedFiles>
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_synchronizer.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.sdc"
+       path="/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis/submodules/altera_reset_controller.sdc"
        type="SDC"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="C:/intelfpga_lite/18.1/ip/altera/merlin/altera_reset_controller/altera_reset_controller_hw.tcl" />
+       path="/opt/altera/18.1/ip/altera/merlin/altera_reset_controller/altera_reset_controller_hw.tcl" />
   </sourceFiles>
   <childSourceFiles/>
   <instantiator instantiator="unsaved" as="rst_controller" />

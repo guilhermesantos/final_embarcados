@@ -1,5 +1,5 @@
 Info: Starting: Create simulation model
-Info: qsys-generate C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved\simulation --family="Cyclone IV GX" --part=EP4CGX150DF31C7
+Info: qsys-generate /home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/simulation --family="Cyclone IV GX" --part=EP4CGX150DF31C7
 Progress: Loading video_geradorpadroes/unsaved.qsys
 Progress: Reading input file
 Progress: Adding bayer_resampler [altera_up_avalon_video_bayer_resampler 18.0]
@@ -18,8 +18,7 @@ Progress: Adding video_scaler_0 [altera_up_avalon_video_scaler 18.0]
 Progress: Parameterizing module video_scaler_0
 Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 18.0]
 Progress: Parameterizing module video_test_pattern_0
-Progress: Adding video_vga_controller_0 [altera_up_avalon_video_vga_controller 18.1]
-Warning: altera_up_avalon_video_vga_controller: Catalog mismatch; expected v18.0 but found v18.1
+Progress: Adding video_vga_controller_0 [altera_up_avalon_video_vga_controller 18.0]
 Progress: Parameterizing module video_vga_controller_0
 Progress: Building connections
 Progress: Parameterizing connections
@@ -53,27 +52,27 @@ Info: unsaved: Done "unsaved" with 9 modules, 36 files
 Info: qsys-generate succeeded.
 Info: Finished: Create simulation model
 Info: Starting: Create Modelsim Project.
-Info: sim-script-gen --spd=C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved\unsaved.spd --output-directory=C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ --use-relative-paths=true
-Info: Doing: ip-make-simscript --spd=C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved\unsaved.spd --output-directory=C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ --use-relative-paths=true
-Info: Generating the following file(s) for MODELSIM simulator in C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ directory:
+Info: sim-script-gen --spd=/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/unsaved.spd --output-directory=/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/unsaved.spd --output-directory=/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in /home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/simulation/ directory:
 Info: 	mentor/msim_setup.tcl
-Info: Generating the following file(s) for VCS simulator in C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ directory:
+Info: Generating the following file(s) for VCS simulator in /home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/simulation/ directory:
 Info: 	synopsys/vcs/vcs_setup.sh
-Info: Generating the following file(s) for VCSMX simulator in C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ directory:
+Info: Generating the following file(s) for VCSMX simulator in /home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/simulation/ directory:
 Info: 	synopsys/vcsmx/synopsys_sim.setup
 Info: 	synopsys/vcsmx/vcsmx_setup.sh
-Info: Generating the following file(s) for NCSIM simulator in C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ directory:
+Info: Generating the following file(s) for NCSIM simulator in /home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/simulation/ directory:
 Info: 	cadence/cds.lib
 Info: 	cadence/hdl.var
 Info: 	cadence/ncsim_setup.sh
 Info: 	8 .cds.lib files in cadence/cds_libs/ directory
-Info: Generating the following file(s) for RIVIERA simulator in C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/ directory:
+Info: Generating the following file(s) for RIVIERA simulator in /home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/simulation/ directory:
 Info: 	aldec/rivierapro_setup.tcl
-Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/gui_m/Documents/Embarcados/video_geradorpadroes/unsaved/simulation/.
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/simulation/.
 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
 Info: Finished: Create Modelsim Project.
 Info: Starting: Create block symbol file (.bsf)
-Info: qsys-generate C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved.qsys --block-symbol-file --output-directory=C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved --family="Cyclone IV GX" --part=EP4CGX150DF31C7
+Info: qsys-generate /home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved.qsys --block-symbol-file --output-directory=/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved --family="Cyclone IV GX" --part=EP4CGX150DF31C7
 Progress: Loading video_geradorpadroes/unsaved.qsys
 Progress: Reading input file
 Progress: Adding bayer_resampler [altera_up_avalon_video_bayer_resampler 18.0]
@@ -92,7 +91,7 @@ Progress: Adding video_scaler_0 [altera_up_avalon_video_scaler 18.0]
 Progress: Parameterizing module video_scaler_0
 Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 18.0]
 Progress: Parameterizing module video_test_pattern_0
-Progress: Adding video_vga_controller_0 [altera_up_avalon_video_vga_controller 18.1]
+Progress: Adding video_vga_controller_0 [altera_up_avalon_video_vga_controller 18.0]
 Progress: Parameterizing module video_vga_controller_0
 Progress: Building connections
 Progress: Parameterizing connections
@@ -110,7 +109,7 @@ Info: qsys-generate succeeded.
 Info: Finished: Create block symbol file (.bsf)
 Info: 
 Info: Starting: Create HDL design files for synthesis
-Info: qsys-generate C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved.qsys --synthesis=VERILOG --output-directory=C:\Users\gui_m\Documents\Embarcados\video_geradorpadroes\unsaved\synthesis --family="Cyclone IV GX" --part=EP4CGX150DF31C7
+Info: qsys-generate /home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved.qsys --synthesis=VERILOG --output-directory=/home/flango/Documents/aula/embarcados/final_embarcados/video_geradorpadroes/unsaved/synthesis --family="Cyclone IV GX" --part=EP4CGX150DF31C7
 Progress: Loading video_geradorpadroes/unsaved.qsys
 Progress: Reading input file
 Progress: Adding bayer_resampler [altera_up_avalon_video_bayer_resampler 18.0]
@@ -129,7 +128,7 @@ Progress: Adding video_scaler_0 [altera_up_avalon_video_scaler 18.0]
 Progress: Parameterizing module video_scaler_0
 Progress: Adding video_test_pattern_0 [altera_up_avalon_video_test_pattern 18.0]
 Progress: Parameterizing module video_test_pattern_0
-Progress: Adding video_vga_controller_0 [altera_up_avalon_video_vga_controller 18.1]
+Progress: Adding video_vga_controller_0 [altera_up_avalon_video_vga_controller 18.0]
 Progress: Parameterizing module video_vga_controller_0
 Progress: Building connections
 Progress: Parameterizing connections

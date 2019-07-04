@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="unsaved" kind="system" version="18.1" fabric="QSYS">
  <!-- Format version 18.1 625 (Future versions may contain additional information.) -->
- <!-- 2019.06.28.14:53:21 -->
+ <!-- 2019.07.04.17:48:54 -->
  <!-- A collection of modules and connections -->
  <parameter name="clockCrossingAdapter">
   <type>com.altera.sopcmodel.ensemble.EClockAdapter</type>
@@ -53,7 +53,7 @@
  </parameter>
  <parameter name="generationId">
   <type>int</type>
-  <value>1561744396</value>
+  <value>1562273333</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>true</visible>
@@ -4047,7 +4047,7 @@ parameters are a RESULT of the module parameters. -->
  <module
    name="video_vga_controller_0"
    kind="altera_up_avalon_video_vga_controller"
-   version="18.1"
+   version="18.0"
    path="video_vga_controller_0">
   <!-- Describes a single module. Module parameters are
 the requested settings for a module instance. -->
@@ -5545,8 +5545,8 @@ parameters are a RESULT of the module parameters. -->
   <name>altera_up_avalon_video_vga_controller</name>
   <type>com.altera.entityinterfaces.IElementClass</type>
   <subtype>com.altera.entityinterfaces.IModule</subtype>
-  <displayName>VGA Controller Intel FPGA IP</displayName>
-  <version>18.1</version>
+  <displayName>VGA Controller</displayName>
+  <version>18.0</version>
  </plugin>
  <plugin>
   <instanceCount>1</instanceCount>
@@ -5597,5 +5597,5 @@ parameters are a RESULT of the module parameters. -->
   <version>18.1</version>
  </plugin>
  <reportVersion>18.1 625</reportVersion>
- <uniqueIdentifier>74E5F98B9F9E0000016B9F3854A1</uniqueIdentifier>
+ <uniqueIdentifier>D6BD91AD19270000016BBEBF4297</uniqueIdentifier>
 </EnsembleReport>

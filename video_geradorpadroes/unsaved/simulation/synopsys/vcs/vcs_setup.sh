@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 18.1 625 win32 2019.06.28.14:53:13
+# ACDS 18.1 625 linux 2019.07.04.17:48:52
 
 # ----------------------------------------
 # vcs - auto-generated simulation script
@@ -94,12 +94,12 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 625 win32 2019.06.28.14:53:13
+# ACDS 18.1 625 linux 2019.07.04.17:48:52
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="unsaved"
 QSYS_SIMDIR="./../../"
-QUARTUS_INSTALL_DIR="C:/intelfpga_lite/18.1/quartus/"
+QUARTUS_INSTALL_DIR="/opt/altera/18.1/quartus/"
 SKIP_FILE_COPY=0
 SKIP_SIM=0
 USER_DEFINED_ELAB_OPTIONS=""
